@@ -1,12 +1,22 @@
 from __future__ import annotations
 
-from typing import List
+import json
+import pathlib
+from typing import Any, Dict, List, Optional
+from urllib.parse import unquote
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
+MOCK_DIR = pathlib.Path(__file__).resolve().parents[1] / "data"
+
+
+def _load_mock(filename: str) -> Any:
+    with open(MOCK_DIR / filename, encoding="utf-8") as f:
+        return json.load(f)
+
 from .config import settings
-from .database import ensure_indexes
+from .database import db, ensure_indexes
 from .schemas import (
     GameSummary,
     OverviewResponse,
@@ -16,7 +26,8 @@ from .schemas import (
     TrendPoint,
     TrendResponse,
 )
-from .services.predictor import predict_next_7_days, weighted_moving_average
+from .services.predictor import predict_next_7_days, predict_monthly_to_dec2026, weighted_moving_average
+from .services.seed import seed_if_empty
 from .services.queries import (
     get_game_name,
     get_latest_ccu_map,
@@ -42,6 +53,8 @@ app.add_middleware(
 @app.on_event("startup")
 def startup_event() -> None:
     ensure_indexes()
+    # Seed MongoDB from JSON files if collections are empty (fresh install)
+    seed_if_empty(db)
     import subprocess, sys, threading
     from .services.queries import get_monitored_count
     if get_monitored_count() == 0:
@@ -136,3 +149,136 @@ def api_ingest() -> dict:
     script = str(__import__("pathlib").Path(__file__).resolve().parents[1] / "scripts" / "ingest_steam_data.py")
     subprocess.Popen([sys.executable, script])
     return {"status": "started"}
+
+
+# ── Mock-data endpoints (now served from MongoDB) ─────────────────────────────
+
+def _history_from_db(appid: int) -> Optional[Dict]:
+    """Query ccu_timeseries for steamcharts monthly history of one game."""
+    docs = list(
+        db["ccu_timeseries"].find(
+            {"appid": appid, "source": "steamcharts_monthly"},
+            sort=[("ts", -1)],   # newest first, same order as original JSON
+        )
+    )
+    if not docs:
+        return None
+
+    # Game name from game_info (fall back to "App {appid}")
+    info = db["game_info"].find_one({"appid": appid}, {"name": 1})
+    name = (info or {}).get("name") or f"App {appid}"
+
+    history = []
+    for i, doc in enumerate(docs):
+        month_str = doc["ts"].strftime("%B %Y")
+        # Compute gain_pct dynamically (compare to previous month = next index)
+        if i + 1 < len(docs):
+            prev = docs[i + 1].get("ccu") or 0
+            curr = doc.get("ccu") or 0
+            if prev > 0:
+                pct = (curr - prev) / prev * 100
+                gain_str = f"+{pct:.2f}%" if pct >= 0 else f"{pct:.2f}%"
+            else:
+                gain_str = "-"
+        else:
+            gain_str = "-"
+        history.append({
+            "month":       month_str,
+            "avg_players": doc.get("ccu", 0),
+            "peak_players":doc.get("peak_ccu", 0),
+            "gain_pct":    gain_str,
+        })
+    return {"appid": str(appid), "name": name, "history": history}
+
+
+@app.get("/api/history/{game_id}")
+def api_history(game_id: str) -> Dict:
+    """Return SteamCharts monthly CCU history for one game (from MongoDB)."""
+    try:
+        appid = int(game_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="game_id must be numeric")
+    result = _history_from_db(appid)
+    if result is None:
+        raise HTTPException(status_code=404, detail=f"No history data for appid {game_id}")
+    return result
+
+
+@app.get("/api/compare")
+def api_compare(ids: str = Query(..., description="Comma-separated appids")) -> List[Dict]:
+    """Return monthly CCU history for multiple games (from MongoDB)."""
+    result = []
+    for token in ids.split(","):
+        token = token.strip()
+        if not token:
+            continue
+        try:
+            appid = int(token)
+        except ValueError:
+            continue
+        data = _history_from_db(appid)
+        if data:
+            result.append(data)
+    if not result:
+        raise HTTPException(status_code=404, detail="None of the requested appids found")
+    return result
+
+
+@app.get("/api/market")
+def api_market() -> List[Dict]:
+    """Return all CS2 market items summary with category and image (from MongoDB)."""
+    items = db["market_items"].find({}, {"_id": 0, "price_history": 0, "icon_url": 0})
+    return list(items)
+
+
+@app.get("/api/market/item")
+def api_market_item(name: str = Query(..., description="Item name (URL-decoded)")) -> Dict:
+    """Return full price history for a single CS2 market item (from MongoDB)."""
+    decoded = unquote(name)
+    item = db["market_items"].find_one({"name": decoded}, {"_id": 0})
+    if not item:
+        raise HTTPException(status_code=404, detail=f"Item not found: {decoded}")
+    return item
+
+
+@app.get("/api/gamedetail/{game_id}")
+def api_game_detail(game_id: str) -> Dict:
+    """Return Steam store details for a game (from MongoDB)."""
+    doc = db["game_details"].find_one({"appid": game_id}, {"_id": 0})
+    if not doc:
+        raise HTTPException(status_code=404, detail=f"No detail data for appid {game_id}")
+    return doc
+
+
+@app.get("/api/price/{game_id}")
+def api_price(game_id: str) -> Dict:
+    """Return CNY price history for a game (from MongoDB price_history collection)."""
+    doc = db["price_history"].find_one({"appid": game_id}, {"_id": 0})
+    if not doc:
+        raise HTTPException(status_code=404, detail=f"No price data for appid {game_id}")
+    return doc
+
+
+@app.get("/api/predict/monthly/{game_id}")
+def api_predict_monthly(
+    game_id: str,
+    discount_rate: float = Query(default=20, ge=0, le=100),
+    update_quality: float = Query(default=6, ge=0, le=10),
+) -> Dict:
+    """
+    Monthly avg_players predictions through December 2026
+    using seasonal decomposition + trend + what-if params (from MongoDB).
+    """
+    try:
+        appid = int(game_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="game_id must be numeric")
+    result = _history_from_db(appid)
+    if result is None:
+        raise HTTPException(status_code=404, detail=f"No history data for appid {game_id}")
+    predictions = predict_monthly_to_dec2026(result["history"], discount_rate, update_quality)
+    return {
+        "appid": game_id,
+        "name":  result["name"],
+        "predictions": predictions,
+    }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>热门游戏数据分析系统 - 可视化看板</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+<canvas id="particleCanvas"></canvas>
+
+<div class="dashboard-container">
+    <div class="header">
+        <h1><i class="fas fa-gamepad"></i> 热门游戏数据分析系统 <i class="fas fa-chart-line"></i></h1>
+        <p class="subtitle">可视化游戏数据分析看板 | 实时追踪游戏评分与趋势</p>
+        <div class="controls">
+            <button class="cyber-button" id="crawlBtn">
+                <span class="button-glow"></span>
+                <span class="button-text"><i class="fas fa-cloud-download-alt"></i> 爬取数据</span>
+            </button>
+            <button class="cyber-button" id="refreshBtn">
+                <span class="button-glow"></span>
+                <span class="button-text"><i class="fas fa-sync-alt"></i> 刷新数据</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="stats-grid" id="statsGrid"></div>
+
+    <div class="charts-grid">
+        <div class="chart-card">
+            <h2><i class="fas fa-chart-bar"></i> 游戏评分分布</h2>
+            <div id="scoreChart" class="chart"></div>
+        </div>
+        <div class="chart-card">
+            <h2><i class="fas fa-chart-pie"></i> 游戏类型分布</h2>
+            <div id="genreChart" class="chart"></div>
+        </div>
+        <div class="chart-card">
+            <h2><i class="fas fa-fire"></i> 热门标签趋势</h2>
+            <div id="tagChart" class="chart"></div>
+        </div>
+        <div class="chart-card">
+            <h2><i class="fas fa-chart-line"></i> 年度评分趋势</h2>
+            <div id="yearlyChart" class="chart"></div>
+        </div>
+    </div>
+
+    <div class="games-section">
+        <div class="section-header">
+            <h2><i class="fas fa-table"></i> 游戏数据库</h2>
+            <input type="text" class="search-input" id="searchInput" placeholder="🔍 搜索游戏...">
+        </div>
+        <div class="games-grid" id="gamesGrid">
+            <div class="loading-text"><i class="fas fa-spinner fa-spin"></i> 加载数据中...</div>
+        </div>
+    </div>
+</div>
+
+<!-- 模态框 -->
+<div class="modal-overlay" id="gameModal">
+    <div class="modal-content">
+        <div class="card-glow"></div>
+        <span class="modal-close" id="modalClose">&times;</span>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -34,7 +34,7 @@ class Settings:
 
 def get_settings() -> Settings:
     target_default = "730,570,578080,271590,1172470,440,252490,4000"
-    origins_default = "http://127.0.0.1:5173,http://localhost:5173"
+    origins_default = "http://127.0.0.1:5173,http://localhost:5173,http://127.0.0.1:5174,http://localhost:5174"
 
     return Settings(
         mongo_uri=os.getenv("MONGO_URI", "mongodb://127.0.0.1:27017"),

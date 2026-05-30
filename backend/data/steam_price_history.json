@@ -1,0 +1,938 @@
+{
+  "730": {
+    "appid": "730",
+    "name": "Counter-Strike 2",
+    "is_free": true,
+    "initial_cny": 0,
+    "current_cny": 0,
+    "current_discount": 0,
+    "all_time_low_cny": 0,
+    "all_time_low_count_1y": 0,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "570": {
+    "appid": "570",
+    "name": "Dota 2",
+    "is_free": true,
+    "initial_cny": 0,
+    "current_cny": 0,
+    "current_discount": 0,
+    "all_time_low_cny": 0,
+    "all_time_low_count_1y": 0,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "578080": {
+    "appid": "578080",
+    "name": "PUBG: BATTLEGROUNDS",
+    "is_free": true,
+    "initial_cny": 0,
+    "current_cny": 0,
+    "current_discount": 0,
+    "all_time_low_cny": 0,
+    "all_time_low_count_1y": 0,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "271590": {
+    "appid": "271590",
+    "name": "Grand Theft Auto V",
+    "is_free": true,
+    "initial_cny": 0,
+    "current_cny": 0,
+    "current_discount": 0,
+    "all_time_low_cny": 0,
+    "all_time_low_count_1y": 0,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "252490": {
+    "appid": "252490",
+    "name": "Rust",
+    "is_free": false,
+    "initial_cny": 138.0,
+    "current_cny": 138.0,
+    "current_discount": 0,
+    "all_time_low_cny": 69.0,
+    "all_time_low_count_1y": 4,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 138.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-06-26",
+        "price_cny": 92.46,
+        "discount_pct": 33,
+        "label": "Summer Sale 2025"
+      },
+      {
+        "date": "2025-07-10",
+        "price_cny": 138.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-11-26",
+        "price_cny": 92.46,
+        "discount_pct": 33,
+        "label": "Autumn Sale 2025"
+      },
+      {
+        "date": "2025-12-03",
+        "price_cny": 138.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-12-19",
+        "price_cny": 69.0,
+        "discount_pct": 50,
+        "label": "Winter Sale 2025"
+      },
+      {
+        "date": "2026-01-02",
+        "price_cny": 138.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-03-19",
+        "price_cny": 92.46,
+        "discount_pct": 33,
+        "label": "Spring Sale 2026"
+      },
+      {
+        "date": "2026-03-26",
+        "price_cny": 138.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 138.0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "1172470": {
+    "appid": "1172470",
+    "name": "Apex Legends",
+    "is_free": true,
+    "initial_cny": 0,
+    "current_cny": 0,
+    "current_discount": 0,
+    "all_time_low_cny": 0,
+    "all_time_low_count_1y": 0,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "440": {
+    "appid": "440",
+    "name": "Team Fortress 2",
+    "is_free": true,
+    "initial_cny": 0,
+    "current_cny": 0,
+    "current_discount": 0,
+    "all_time_low_cny": 0,
+    "all_time_low_count_1y": 0,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "1086940": {
+    "appid": "1086940",
+    "name": "Baldur's Gate 3",
+    "is_free": false,
+    "initial_cny": 298.0,
+    "current_cny": 298.0,
+    "current_discount": 0,
+    "all_time_low_cny": 223.5,
+    "all_time_low_count_1y": 2,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-06-26",
+        "price_cny": 223.5,
+        "discount_pct": 25,
+        "label": "Summer Sale 2025"
+      },
+      {
+        "date": "2025-07-10",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-12-19",
+        "price_cny": 223.5,
+        "discount_pct": 25,
+        "label": "Winter Sale 2025"
+      },
+      {
+        "date": "2026-01-02",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "1245620": {
+    "appid": "1245620",
+    "name": "ELDEN RING",
+    "is_free": false,
+    "initial_cny": 298.0,
+    "current_cny": 298.0,
+    "current_discount": 0,
+    "all_time_low_cny": 149.0,
+    "all_time_low_count_1y": 5,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-06-26",
+        "price_cny": 149.0,
+        "discount_pct": 50,
+        "label": "Summer Sale 2025"
+      },
+      {
+        "date": "2025-07-10",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-11-26",
+        "price_cny": 223.5,
+        "discount_pct": 25,
+        "label": "Autumn Sale 2025"
+      },
+      {
+        "date": "2025-12-03",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-12-19",
+        "price_cny": 149.0,
+        "discount_pct": 50,
+        "label": "Winter Sale 2025"
+      },
+      {
+        "date": "2026-01-02",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-01-28",
+        "price_cny": 223.5,
+        "discount_pct": 25,
+        "label": "Lunar New Year Sale 2026"
+      },
+      {
+        "date": "2026-02-11",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-03-19",
+        "price_cny": 223.5,
+        "discount_pct": 25,
+        "label": "Spring Sale 2026"
+      },
+      {
+        "date": "2026-03-26",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "2399830": {
+    "appid": "2399830",
+    "name": "Helldivers 2",
+    "is_free": false,
+    "initial_cny": 248.0,
+    "current_cny": 248.0,
+    "current_discount": 0,
+    "all_time_low_cny": 62.0,
+    "all_time_low_count_1y": 6,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 248.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-05-29",
+        "price_cny": 124.0,
+        "discount_pct": 50,
+        "label": "Mid-Year Sale"
+      },
+      {
+        "date": "2025-06-05",
+        "price_cny": 248.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-06-26",
+        "price_cny": 62.0,
+        "discount_pct": 75,
+        "label": "Summer Sale 2025"
+      },
+      {
+        "date": "2025-07-10",
+        "price_cny": 248.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-11-26",
+        "price_cny": 124.0,
+        "discount_pct": 50,
+        "label": "Autumn Sale 2025"
+      },
+      {
+        "date": "2025-12-03",
+        "price_cny": 248.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-12-19",
+        "price_cny": 62.0,
+        "discount_pct": 75,
+        "label": "Winter Sale 2025"
+      },
+      {
+        "date": "2026-01-02",
+        "price_cny": 248.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-01-28",
+        "price_cny": 124.0,
+        "discount_pct": 50,
+        "label": "Lunar New Year Sale 2026"
+      },
+      {
+        "date": "2026-02-11",
+        "price_cny": 248.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-03-19",
+        "price_cny": 124.0,
+        "discount_pct": 50,
+        "label": "Spring Sale 2026"
+      },
+      {
+        "date": "2026-03-26",
+        "price_cny": 248.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 248.0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "1091500": {
+    "appid": "1091500",
+    "name": "Cyberpunk 2077",
+    "is_free": false,
+    "initial_cny": 298.0,
+    "current_cny": 298.0,
+    "current_discount": 0,
+    "all_time_low_cny": 74.5,
+    "all_time_low_count_1y": 7,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-05-29",
+        "price_cny": 149.0,
+        "discount_pct": 50,
+        "label": "Mid-Year Sale"
+      },
+      {
+        "date": "2025-06-05",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-06-26",
+        "price_cny": 74.5,
+        "discount_pct": 75,
+        "label": "Summer Sale 2025"
+      },
+      {
+        "date": "2025-07-10",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-10-28",
+        "price_cny": 199.66,
+        "discount_pct": 33,
+        "label": "Halloween Sale 2025"
+      },
+      {
+        "date": "2025-11-01",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-11-26",
+        "price_cny": 149.0,
+        "discount_pct": 50,
+        "label": "Autumn Sale 2025"
+      },
+      {
+        "date": "2025-12-03",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-12-19",
+        "price_cny": 74.5,
+        "discount_pct": 75,
+        "label": "Winter Sale 2025"
+      },
+      {
+        "date": "2026-01-02",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-01-28",
+        "price_cny": 149.0,
+        "discount_pct": 50,
+        "label": "Lunar New Year Sale 2026"
+      },
+      {
+        "date": "2026-02-11",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-03-19",
+        "price_cny": 149.0,
+        "discount_pct": 50,
+        "label": "Spring Sale 2026"
+      },
+      {
+        "date": "2026-03-26",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 298.0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "252950": {
+    "appid": "252950",
+    "name": "Rocket League",
+    "is_free": true,
+    "initial_cny": 0,
+    "current_cny": 0,
+    "current_discount": 0,
+    "all_time_low_cny": 0,
+    "all_time_low_count_1y": 0,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "1599340": {
+    "appid": "1599340",
+    "name": "Lost Ark",
+    "is_free": true,
+    "initial_cny": 0,
+    "current_cny": 0,
+    "current_discount": 0,
+    "all_time_low_cny": 0,
+    "all_time_low_count_1y": 0,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "381210": {
+    "appid": "381210",
+    "name": "Dead by Daylight",
+    "is_free": false,
+    "initial_cny": 93.75,
+    "current_cny": 93.75,
+    "current_discount": 0,
+    "all_time_low_cny": 23.44,
+    "all_time_low_count_1y": 7,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 93.75,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-05-29",
+        "price_cny": 46.88,
+        "discount_pct": 50,
+        "label": "Mid-Year Sale"
+      },
+      {
+        "date": "2025-06-05",
+        "price_cny": 93.75,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-06-26",
+        "price_cny": 46.88,
+        "discount_pct": 50,
+        "label": "Summer Sale 2025"
+      },
+      {
+        "date": "2025-07-10",
+        "price_cny": 93.75,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-10-28",
+        "price_cny": 46.88,
+        "discount_pct": 50,
+        "label": "Halloween Sale 2025"
+      },
+      {
+        "date": "2025-11-01",
+        "price_cny": 93.75,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-11-26",
+        "price_cny": 46.88,
+        "discount_pct": 50,
+        "label": "Autumn Sale 2025"
+      },
+      {
+        "date": "2025-12-03",
+        "price_cny": 93.75,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-12-19",
+        "price_cny": 23.44,
+        "discount_pct": 75,
+        "label": "Winter Sale 2025"
+      },
+      {
+        "date": "2026-01-02",
+        "price_cny": 93.75,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-01-28",
+        "price_cny": 46.88,
+        "discount_pct": 50,
+        "label": "Lunar New Year Sale 2026"
+      },
+      {
+        "date": "2026-02-11",
+        "price_cny": 93.75,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-03-19",
+        "price_cny": 62.81,
+        "discount_pct": 33,
+        "label": "Spring Sale 2026"
+      },
+      {
+        "date": "2026-03-26",
+        "price_cny": 93.75,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 93.75,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "550": {
+    "appid": "550",
+    "name": "Left 4 Dead 2",
+    "is_free": false,
+    "initial_cny": 42.0,
+    "current_cny": 42.0,
+    "current_discount": 0,
+    "all_time_low_cny": 10.5,
+    "all_time_low_count_1y": 7,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 42.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-05-29",
+        "price_cny": 21.0,
+        "discount_pct": 50,
+        "label": "Mid-Year Sale"
+      },
+      {
+        "date": "2025-06-05",
+        "price_cny": 42.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-06-26",
+        "price_cny": 10.5,
+        "discount_pct": 75,
+        "label": "Summer Sale 2025"
+      },
+      {
+        "date": "2025-07-10",
+        "price_cny": 42.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-10-28",
+        "price_cny": 21.0,
+        "discount_pct": 50,
+        "label": "Halloween Sale 2025"
+      },
+      {
+        "date": "2025-11-01",
+        "price_cny": 42.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-11-26",
+        "price_cny": 14.28,
+        "discount_pct": 66,
+        "label": "Autumn Sale 2025"
+      },
+      {
+        "date": "2025-12-03",
+        "price_cny": 42.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-12-19",
+        "price_cny": 10.5,
+        "discount_pct": 75,
+        "label": "Winter Sale 2025"
+      },
+      {
+        "date": "2026-01-02",
+        "price_cny": 42.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-01-28",
+        "price_cny": 14.28,
+        "discount_pct": 66,
+        "label": "Lunar New Year Sale 2026"
+      },
+      {
+        "date": "2026-02-11",
+        "price_cny": 42.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-03-19",
+        "price_cny": 21.0,
+        "discount_pct": 50,
+        "label": "Spring Sale 2026"
+      },
+      {
+        "date": "2026-03-26",
+        "price_cny": 42.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 42.0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "346110": {
+    "appid": "346110",
+    "name": "ARK: Survival Evolved",
+    "is_free": false,
+    "initial_cny": 58.0,
+    "current_cny": 58.0,
+    "current_discount": 0,
+    "all_time_low_cny": 19.14,
+    "all_time_low_count_1y": 6,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 58.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-05-29",
+        "price_cny": 38.86,
+        "discount_pct": 33,
+        "label": "Mid-Year Sale"
+      },
+      {
+        "date": "2025-06-05",
+        "price_cny": 58.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-06-26",
+        "price_cny": 19.14,
+        "discount_pct": 67,
+        "label": "Summer Sale 2025"
+      },
+      {
+        "date": "2025-07-10",
+        "price_cny": 58.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-11-26",
+        "price_cny": 29.0,
+        "discount_pct": 50,
+        "label": "Autumn Sale 2025"
+      },
+      {
+        "date": "2025-12-03",
+        "price_cny": 58.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2025-12-19",
+        "price_cny": 19.14,
+        "discount_pct": 67,
+        "label": "Winter Sale 2025"
+      },
+      {
+        "date": "2026-01-02",
+        "price_cny": 58.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-01-28",
+        "price_cny": 29.0,
+        "discount_pct": 50,
+        "label": "Lunar New Year Sale 2026"
+      },
+      {
+        "date": "2026-02-11",
+        "price_cny": 58.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-03-19",
+        "price_cny": 29.0,
+        "discount_pct": 50,
+        "label": "Spring Sale 2026"
+      },
+      {
+        "date": "2026-03-26",
+        "price_cny": 58.0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 58.0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  },
+  "359550": {
+    "appid": "359550",
+    "name": "Rainbow Six Siege",
+    "is_free": true,
+    "initial_cny": 0,
+    "current_cny": 0,
+    "current_discount": 0,
+    "all_time_low_cny": 0,
+    "all_time_low_count_1y": 0,
+    "history": [
+      {
+        "date": "2025-05-29",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      },
+      {
+        "date": "2026-05-30",
+        "price_cny": 0,
+        "discount_pct": 0,
+        "label": ""
+      }
+    ]
+  }
+}

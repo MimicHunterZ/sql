@@ -1,0 +1,362 @@
+[
+  {
+    "appid": "2483190",
+    "name": "极限竞速：地平线 6",
+    "price_raw": "S$89.90",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 5 月 18 日",
+    "reviews_summary": "褒贬不一此游戏的 8,809 篇用户评测中有 68% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "3768760",
+    "name": "007 初露锋芒",
+    "price_raw": "S$59.00",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 5 月 26 日",
+    "reviews_summary": "特别好评此游戏的 454 篇用户评测中有 86% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "730",
+    "name": "Counter-Strike 2",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2012 年 8 月 21 日",
+    "reviews_summary": "特别好评此游戏的 1,387,004 篇用户评测中有 89% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1118520",
+    "name": "平行人生 Paralives",
+    "price_raw": "S$30.60",
+    "is_free": false,
+    "discount_pct": 10,
+    "release_date": "2026 年 5 月 25 日",
+    "reviews_summary": "褒贬不一此游戏的 249 篇用户评测中有 66% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1962700",
+    "name": "Subnautica 2：异星水域",
+    "price_raw": "S$40.00",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 5 月 14 日",
+    "reviews_summary": "多半好评此游戏的 5,748 篇用户评测中有 71% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "3932890",
+    "name": "Escape from Tarkov",
+    "price_raw": "S$27.00",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2025 年 11 月 15 日",
+    "reviews_summary": "差评如潮此游戏的 10,307 篇用户评测中有 19% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "4214820",
+    "name": "权力的游戏 : 国王大道",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2026 年 5 月 14 日",
+    "reviews_summary": "褒贬不一此游戏的 1,611 篇用户评测中有 66% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "3564740",
+    "name": "燕云十六声",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2025 年 11 月 14 日",
+    "reviews_summary": "特别好评此游戏的 2,383 篇用户评测中有 82% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "2215200",
+    "name": "乐高®蝙蝠侠™：黑暗骑士之遗",
+    "price_raw": "S$94.00",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 5 月 22 日",
+    "reviews_summary": "好评如潮此游戏的 4,583 篇用户评测中有 96% 为好评。"
+  },
+  {
+    "appid": "2183900",
+    "name": "Warhammer 40,000: 星际战士2",
+    "price_raw": "S$20.97",
+    "is_free": false,
+    "discount_pct": 70,
+    "release_date": "2024 年 9 月 9 日",
+    "reviews_summary": "褒贬不一此游戏的 15,582 篇用户评测中有 59% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1172470",
+    "name": "Apex Legends™",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2020 年 11 月 4 日",
+    "reviews_summary": "褒贬不一此游戏的 263,654 篇用户评测中有 43% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "570",
+    "name": "Dota 2",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2013 年 7 月 9 日",
+    "reviews_summary": "多半好评此游戏的 204,250 篇用户评测中有 78% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "578080",
+    "name": "PUBG: BATTLEGROUNDS",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2017 年 12 月 21 日",
+    "reviews_summary": "褒贬不一此游戏的 1,385,322 篇用户评测中有 50% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "230410",
+    "name": "Warframe 星际战甲",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2013 年 3 月 25 日",
+    "reviews_summary": "多半好评此游戏的 131,150 篇用户评测中有 71% 为好评。此产品在一个或多个时间段内出现跑题评测活动。这些时间段内的评测已按您的偏好设置不计入此产品的总体评价。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1488430",
+    "name": "油尽航行",
+    "price_raw": "S$19.99",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2022 年 10 月 13 日",
+    "reviews_summary": "多半好评此游戏的 94 篇用户评测中有 74% 为好评。"
+  },
+  {
+    "appid": "2767030",
+    "name": "漫威争锋",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2024 年 12 月 5 日",
+    "reviews_summary": "褒贬不一此游戏的 17,675 篇用户评测中有 56% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "2357570",
+    "name": "《守望先锋®》",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2023 年 8 月 10 日",
+    "reviews_summary": "差评如潮此游戏的 145,293 篇用户评测中有 7% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "3513350",
+    "name": "Wuthering Waves",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2025 年 4 月 28 日",
+    "reviews_summary": "特别好评此游戏的 1,261 篇用户评测中有 80% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "3240220",
+    "name": "Grand Theft Auto V 增强版",
+    "price_raw": "S$19.50",
+    "is_free": false,
+    "discount_pct": 50,
+    "release_date": "2025 年 3 月 4 日",
+    "reviews_summary": "多半好评此游戏的 44,521 篇用户评测中有 79% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "2261430",
+    "name": "流明物语：特雷的回忆",
+    "price_raw": "S$22.49",
+    "is_free": false,
+    "discount_pct": 10,
+    "release_date": "2026 年 5 月 26 日",
+    "reviews_summary": "褒贬不一此游戏的 169 篇用户评测中有 59% 为好评。"
+  },
+  {
+    "appid": "2868840",
+    "name": "Slay the Spire 2",
+    "price_raw": "S$23.99",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 3 月 5 日",
+    "reviews_summary": "多半差评此游戏的 71,632 篇用户评测中有 34% 为好评。此产品在一个或多个时间段内出现跑题评测活动。这些时间段内的评测已按您的偏好设置不计入此产品的总体评价。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1142710",
+    "name": "全面战争：战锤3",
+    "price_raw": "S$10.35",
+    "is_free": false,
+    "discount_pct": 85,
+    "release_date": "2022 年 2 月 16 日",
+    "reviews_summary": "褒贬不一此游戏的 12,553 篇用户评测中有 63% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1304930",
+    "name": "The Outlast Trials",
+    "price_raw": "S$10.20",
+    "is_free": false,
+    "discount_pct": 70,
+    "release_date": "2024 年 3 月 5 日",
+    "reviews_summary": "特别好评此游戏的 11,233 篇用户评测中有 88% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "2074920",
+    "name": "The First Descendant",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2024 年 6 月 30 日",
+    "reviews_summary": "多半差评此游戏的 17,116 篇用户评测中有 27% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "2597080",
+    "name": "墨境",
+    "price_raw": "S$23.40",
+    "is_free": false,
+    "discount_pct": 10,
+    "release_date": "2026 年 5 月 26 日",
+    "reviews_summary": "特别好评此游戏的 3,263 篇用户评测中有 91% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "3472040",
+    "name": "NBA 2K26",
+    "price_raw": "S$99.00",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2025 年 9 月 4 日",
+    "reviews_summary": "褒贬不一此游戏的 4,090 篇用户评测中有 46% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1903340",
+    "name": "光与影：33号远征队",
+    "price_raw": "S$56.80",
+    "is_free": false,
+    "discount_pct": 20,
+    "release_date": "2025 年 4 月 24 日",
+    "reviews_summary": "特别好评此游戏的 22,628 篇用户评测中有 85% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1805320",
+    "name": "罗马拓荒录",
+    "price_raw": "S$14.17",
+    "is_free": false,
+    "discount_pct": 10,
+    "release_date": "2026 年 5 月 25 日",
+    "reviews_summary": "多半好评此游戏的 434 篇用户评测中有 75% 为好评。"
+  },
+  {
+    "appid": "4090980",
+    "name": "Escape from Tarkov - The Unheard Steam Edition Expansion Pack",
+    "price_raw": "",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 5 月 20 日",
+    "reviews_summary": "特别好评此游戏的 57 篇用户评测中有 85% 为好评。"
+  },
+  {
+    "appid": "3009300",
+    "name": "Teamfight Manager 2",
+    "price_raw": "S$16.65",
+    "is_free": false,
+    "discount_pct": 10,
+    "release_date": "2026 年 5 月 25 日",
+    "reviews_summary": "褒贬不一此游戏的 568 篇用户评测中有 59% 为好评。"
+  },
+  {
+    "appid": "3405690",
+    "name": "EA SPORTS FC™ 26",
+    "price_raw": "S$54.94",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2025 年 9 月 25 日",
+    "reviews_summary": "多半差评此游戏的 4,329 篇用户评测中有 25% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "2507950",
+    "name": "三角洲行动",
+    "price_raw": "免费",
+    "is_free": true,
+    "discount_pct": 0,
+    "release_date": "2024 年 12 月 4 日",
+    "reviews_summary": "褒贬不一此游戏的 56,378 篇用户评测中有 41% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "2344520",
+    "name": "《暗黑破坏神® IV》",
+    "price_raw": "S$70.00",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 4 月 27 日",
+    "reviews_summary": "褒贬不一此游戏的 13,114 篇用户评测中有 47% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "4197610",
+    "name": "图书管理员：整理魔法图书馆吧！",
+    "price_raw": "S$7.29",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 4 月 30 日",
+    "reviews_summary": "特别好评此游戏的 652 篇用户评测中有 93% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "553850",
+    "name": "HELLDIVERS™ 2",
+    "price_raw": "S$54.90",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2024 年 2 月 8 日",
+    "reviews_summary": "多半差评此游戏的 65,994 篇用户评测中有 29% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1361210",
+    "name": "战锤40K：暗潮",
+    "price_raw": "S$12.47",
+    "is_free": false,
+    "discount_pct": 75,
+    "release_date": "2022 年 11 月 30 日",
+    "reviews_summary": "褒贬不一此游戏的 11,292 篇用户评测中有 46% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "1623730",
+    "name": "Palworld / 幻兽帕鲁",
+    "price_raw": "S$19.50",
+    "is_free": false,
+    "discount_pct": 25,
+    "release_date": "2024 年 1 月 18 日",
+    "reviews_summary": "特别好评此游戏的 97,145 篇用户评测中有 91% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "3751950",
+    "name": "刺客信条：黑旗 记忆重置",
+    "price_raw": "S$79.90",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 7 月 9 日",
+    "reviews_summary": ""
+  },
+  {
+    "appid": "3357650",
+    "name": "PRAGMATA",
+    "price_raw": "S$73.90",
+    "is_free": false,
+    "discount_pct": 0,
+    "release_date": "2026 年 4 月 16 日",
+    "reviews_summary": "特别好评此游戏的 4,586 篇用户评测中有 94% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  },
+  {
+    "appid": "3159330",
+    "name": "刺客信条：影",
+    "price_raw": "S$47.45",
+    "is_free": false,
+    "discount_pct": 50,
+    "release_date": "2025 年 3 月 19 日",
+    "reviews_summary": "褒贬不一此游戏的 5,793 篇用户评测中有 69% 为好评。此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。"
+  }
+]

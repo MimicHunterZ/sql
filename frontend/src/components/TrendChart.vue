@@ -48,13 +48,19 @@ const option = computed(() => {
       text: props.title,
       left: 12,
       top: 10,
-      textStyle: { color: '#34d399', fontSize: 13, fontWeight: 600, fontFamily: 'Share Tech Mono, monospace' },
+      textStyle: { 
+        color: '#60a5fa', 
+        fontSize: 14, 
+        fontWeight: 600, 
+        fontFamily: 'Inter, sans-serif' 
+      },
     },
     tooltip: {
       trigger: 'axis',
-      backgroundColor: 'rgba(3,10,6,0.97)',
-      borderColor: 'rgba(16,185,129,0.4)',
-      textStyle: { color: '#a7f3d0', fontFamily: 'Share Tech Mono, monospace', fontSize: 12 },
+      backgroundColor: 'rgba(17,24,39,0.95)',
+      borderColor: 'rgba(96,165,250,0.5)',
+      borderWidth: 1,
+      textStyle: { color: '#e0e0e0', fontFamily: 'Inter, sans-serif', fontSize: 12 },
       formatter(params) {
         const active = params.filter((p) => p.value !== null && p.value !== undefined)
         if (!active.length) return ''
@@ -65,22 +71,22 @@ const option = computed(() => {
     legend: {
       top: 10,
       right: 12,
-      textStyle: { color: '#6ee7b7', fontFamily: 'Share Tech Mono, monospace', fontSize: 11 },
+      textStyle: { color: '#d1d5db', fontFamily: 'Inter, sans-serif', fontSize: 11 },
       data: ['历史CCU', '未来7天预测'],
     },
     grid: { left: 60, right: 20, top: 50, bottom: 40 },
     xAxis: {
       type: 'category',
       data: xAxis,
-      axisLine: { lineStyle: { color: 'rgba(16,185,129,0.2)' } },
-      axisLabel: { color: '#065f46', fontSize: 10, fontFamily: 'Share Tech Mono, monospace' },
+      axisLine: { lineStyle: { color: 'rgba(96,165,250,0.3)' } },
+      axisLabel: { color: '#9ca3af', fontSize: 10, fontFamily: 'Inter, sans-serif' },
       splitLine: { show: false },
     },
     yAxis: {
       type: 'value',
       axisLine: { show: false },
-      splitLine: { lineStyle: { color: 'rgba(16,185,129,0.08)', type: 'dashed' } },
-      axisLabel: { color: '#065f46', fontSize: 10, fontFamily: 'Share Tech Mono, monospace',
+      splitLine: { lineStyle: { color: 'rgba(96,165,250,0.1)', type: 'dashed' } },
+      axisLabel: { color: '#9ca3af', fontSize: 10, fontFamily: 'Inter, sans-serif',
         formatter: (v) => v >= 1000000 ? (v/1000000).toFixed(1)+'M' : v >= 1000 ? (v/1000).toFixed(0)+'K' : v },
     },
     series: [
@@ -90,10 +96,10 @@ const option = computed(() => {
         data: histSeries,
         smooth: 0.3,
         showSymbol: false,
-        lineStyle: { width: 2, color: '#10b981' },
+        lineStyle: { width: 2.5, color: '#60a5fa' },
         areaStyle: {
           color: { type: 'linear', x: 0, y: 0, x2: 0, y2: 1,
-            colorStops: [{ offset: 0, color: 'rgba(16,185,129,0.25)' }, { offset: 1, color: 'rgba(16,185,129,0.01)' }] }
+            colorStops: [{ offset: 0, color: 'rgba(96,165,250,0.3)' }, { offset: 1, color: 'rgba(96,165,250,0.01)' }] }
         },
       },
       {
@@ -102,10 +108,10 @@ const option = computed(() => {
         data: predSeries,
         smooth: 0.3,
         showSymbol: false,
-        lineStyle: { width: 2, type: 'dashed', color: '#34d399' },
+        lineStyle: { width: 2.5, type: 'dashed', color: '#a78bfa' },
         areaStyle: {
           color: { type: 'linear', x: 0, y: 0, x2: 0, y2: 1,
-            colorStops: [{ offset: 0, color: 'rgba(52,211,153,0.15)' }, { offset: 1, color: 'rgba(52,211,153,0.01)' }] }
+            colorStops: [{ offset: 0, color: 'rgba(167,139,250,0.2)' }, { offset: 1, color: 'rgba(167,139,250,0.01)' }] }
         },
       },
     ],

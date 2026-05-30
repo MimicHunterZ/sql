@@ -33,3 +33,42 @@ export async function triggerIngest() {
   const { data } = await api.post('/api/ingest')
   return data
 }
+
+// ── Mock-data APIs ─────────────────────────────────────────────────────────────
+
+export async function getHistory(gameId) {
+  const { data } = await api.get(`/api/history/${gameId}`)
+  return data
+}
+
+export async function getCompare(ids) {
+  const { data } = await api.get('/api/compare', { params: { ids: ids.join(',') } })
+  return data
+}
+
+export async function getMarketItems() {
+  const { data } = await api.get('/api/market')
+  return data
+}
+
+export async function getMarketItem(name) {
+  const { data } = await api.get('/api/market/item', { params: { name } })
+  return data
+}
+
+export async function getGameDetail(gameId) {
+  const { data } = await api.get(`/api/gamedetail/${gameId}`)
+  return data
+}
+
+export async function getPrice(gameId) {
+  const { data } = await api.get(`/api/price/${gameId}`)
+  return data
+}
+
+export async function getPredictMonthly(gameId, discountRate = 20, updateQuality = 6) {
+  const { data } = await api.get(`/api/predict/monthly/${gameId}`, {
+    params: { discount_rate: discountRate, update_quality: updateQuality },
+  })
+  return data
+}
