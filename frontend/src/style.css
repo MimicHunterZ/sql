@@ -10,9 +10,9 @@ body,
 
 body {
   margin: 0;
-  font-family: 'Inter', 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: 'Noto Sans SC', 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   color: #e0e0e0;
-  background: linear-gradient(135deg, #0a0a1a 0%, #050510 100%);
+  background: linear-gradient(135deg, #090e16 0%, #070b11 100%);
 }
 
 * {

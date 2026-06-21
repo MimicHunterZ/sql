@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import VChart from 'vue-echarts'
 import { use } from 'echarts/core'
@@ -11,6 +11,7 @@ import {
 } from 'echarts/components'
 import TrendChart from '../components/TrendChart.vue'
 import { getGameDetail, getHistory, getPredict, getPredictMonthly, getPrice, getTrend } from '../api'
+import { gameImage } from '../storefront'
 
 use([CanvasRenderer, LineChart, GridComponent, LegendComponent,
      TooltipComponent, MarkLineComponent, DataZoomComponent])
@@ -28,14 +29,74 @@ const history        = ref([])
 const priceData      = ref(null)   // CNY price history
 const discountRate   = ref(20)
 const updateQuality  = ref(6)
+const reviewsCardEl  = ref(null)
+const aboutCardHeight = ref(null)
 
 let debounce = null
+let reviewResizeObserver = null
 
 function fmtNum(n) {
   if (n == null) return '--'
   if (n >= 1_000_000) return (n / 1_000_000).toFixed(2) + 'M'
   if (n >= 1_000)     return (n / 1_000).toFixed(1) + 'K'
   return Number(n).toLocaleString()
+}
+function fmtPercent(n) {
+  if (n == null) return '--'
+  return `${Number(n).toFixed(1)}%`
+}
+function reviewTone(votedUp) {
+  return votedUp ? '推荐' : '不推荐'
+}
+function fmtCny(n) {
+  if (n == null) return '--'
+  return `¥${Number(n).toFixed(2).replace(/\.00$/, '')}`
+}
+
+const priceLabel = computed(() => {
+  const pd = priceData.value
+  if (detail.value?.is_free || pd?.is_free) return '免费开玩'
+  if (pd?.current_cny != null) return fmtCny(pd.current_cny)
+  return '价格暂缺'
+})
+const priceNote = computed(() => {
+  const pd = priceData.value
+  if (!pd || pd.is_free) return 'Steam 免费游戏'
+  if (pd.current_discount > 0) return `当前 -${pd.current_discount}% · 原价 ${fmtCny(pd.initial_cny)}`
+  if (pd.all_time_low_cny != null && pd.all_time_low_cny < pd.current_cny) {
+    return `史低 ${fmtCny(pd.all_time_low_cny)}`
+  }
+  return '当前 CNY 价格'
+})
+const aboutText = computed(() => detail.value?.detailed_desc || detail.value?.short_desc || '')
+
+function syncAboutCardHeight() {
+  if (typeof window === 'undefined') return
+
+  if (window.matchMedia('(max-width: 980px)').matches) {
+    aboutCardHeight.value = null
+    return
+  }
+
+  const el = reviewsCardEl.value
+  aboutCardHeight.value = el ? Math.ceil(el.getBoundingClientRect().height) : null
+}
+
+async function bindReviewCardHeight() {
+  await nextTick()
+
+  reviewResizeObserver?.disconnect()
+  reviewResizeObserver = null
+
+  const el = reviewsCardEl.value
+  if (!el || typeof ResizeObserver === 'undefined') {
+    syncAboutCardHeight()
+    return
+  }
+
+  reviewResizeObserver = new ResizeObserver(syncAboutCardHeight)
+  reviewResizeObserver.observe(el)
+  syncAboutCardHeight()
 }
 
 async function loadPredict() {
@@ -78,7 +139,16 @@ async function load() {
 
 watch(gameId, load)
 watch([discountRate, updateQuality], debouncedPredict)
-onMounted(load)
+watch([detail, loading], bindReviewCardHeight)
+onMounted(() => {
+  load()
+  window.addEventListener('resize', syncAboutCardHeight)
+})
+onBeforeUnmount(() => {
+  clearTimeout(debounce)
+  reviewResizeObserver?.disconnect()
+  window.removeEventListener('resize', syncAboutCardHeight)
+})
 
 // ── CNY Price history chart ────────────────────────────────────────────────────
 const priceOption = computed(() => {
@@ -257,54 +327,147 @@ const historyOption = computed(() => {
 <template>
   <div class="game-detail">
 
-    <!-- back + title -->
-    <div
-      class="page-header"
-      :style="detail ? {
-        backgroundImage: `linear-gradient(to right, rgba(10,10,26,.95) 40%, rgba(10,10,26,.6)),
-                          url(https://cdn.akamai.steamstatic.com/steam/apps/${gameId}/capsule_616x353.jpg)`,
-      } : {}"
+    <section
+      class="store-detail-hero"
+      :style="{
+        backgroundImage: `linear-gradient(90deg, rgba(9,14,22,.98) 0%, rgba(9,14,22,.82) 44%, rgba(9,14,22,.3) 100%), url(${gameImage(gameId, 'hero')})`,
+      }"
     >
-      <button class="btn-back" @click="router.push('/')">← 返回</button>
-      <div class="header-info" v-if="detail">
-        <div class="header-cover-wrap">
-          <img
-            :src="`https://cdn.akamai.steamstatic.com/steam/apps/${gameId}/header.jpg`"
-            :alt="detail.name"
-            class="header-cover"
-          />
+      <div class="detail-toolbar">
+        <button class="btn-back" @click="router.push('/')">← 商店</button>
+        <button class="btn-back" @click="router.push('/dashboard')">数据总览</button>
+      </div>
+
+      <div class="detail-hero-grid" v-if="detail">
+        <div class="detail-media">
+          <img :src="gameImage(gameId, 'header')" :alt="detail.name" class="detail-header-img" />
+          <div class="detail-screens">
+            <img :src="gameImage(gameId, 'small')" :alt="detail.name" />
+            <img :src="gameImage(gameId, 'hero')" :alt="detail.name" />
+          </div>
         </div>
-        <div>
-          <h1 class="page-title">{{ detail.name }}</h1>
-          <p class="page-sub">
-            App {{ gameId }} ·
-            {{ detail.developer }} ·
-            {{ detail.release_date }} ·
-            <span :class="detail.is_free ? 'text-green-400' : 'text-gray-400'">
-              {{ detail.is_free ? '免费' : '付费' }}
-            </span>
+
+        <div class="detail-copy">
+          <p class="store-kicker">STEAM GAME PAGE</p>
+          <h1>{{ detail.name }}</h1>
+          <p class="detail-desc">
+            {{ detail.short_desc || '这款游戏正在被纳入 CCU Intelligence 监控，当前页面汇总商店信息、在线人数、价格历史和趋势预测。' }}
           </p>
+
+          <div class="detail-meta">
+            <div>
+              <span>最近评价</span>
+              <b>{{ detail.review_summary || '--' }}</b>
+            </div>
+            <div>
+              <span>好评率</span>
+              <b>{{ fmtPercent(detail.positive_ratio) }}</b>
+            </div>
+            <div>
+              <span>总评测</span>
+              <b>{{ fmtNum(detail.total_reviews) }}</b>
+            </div>
+          </div>
+
+          <div class="detail-meta detail-meta--secondary">
+            <div>
+              <span>开发商</span>
+              <b>{{ detail.developer || '--' }}</b>
+            </div>
+            <div>
+              <span>发行商</span>
+              <b>{{ detail.publisher || '--' }}</b>
+            </div>
+            <div>
+              <span>发行日期</span>
+              <b>{{ detail.release_date || '--' }}</b>
+            </div>
+          </div>
+
+          <div class="detail-tags">
+            <span v-for="tag in (detail.tags || []).slice(0, 8)" :key="tag">{{ tag }}</span>
+          </div>
+
+          <div class="detail-buy">
+            <span class="buy-label">当前价格</span>
+            <strong>{{ priceLabel }}</strong>
+            <em>{{ priceNote }}</em>
+          </div>
         </div>
       </div>
-      <div v-else>
-        <h1 class="page-title">游戏详情</h1>
-        <p class="page-sub">App {{ gameId }}</p>
+
+      <div class="detail-hero-grid" v-else>
+        <div class="detail-copy">
+          <p class="store-kicker">APP {{ gameId }}</p>
+          <h1>游戏详情</h1>
+          <p class="detail-desc">商店详情暂未加载，数据图表仍可继续查看。</p>
+        </div>
       </div>
-    </div>
+    </section>
 
     <div v-if="loading" class="loading-block">加载数据中...</div>
     <template v-else>
 
-      <!-- top info strip -->
-      <div v-if="detail" class="info-strip">
-        <div class="info-chip">
-          <span class="info-chip-key">评价</span>
-          <span class="info-chip-val">{{ detail.review_summary || '--' }}</span>
+      <section v-if="detail" class="store-data-strip">
+        <div class="strip-card">
+          <span>当前 CCU</span>
+          <b>{{ fmtNum(detail.current_ccu) }}</b>
         </div>
-        <div class="info-chip" v-for="tag in (detail.tags || []).slice(0,5)" :key="tag">
-          <span class="info-chip-val tag">{{ tag }}</span>
+        <div class="strip-card">
+          <span>历史峰值</span>
+          <b>{{ fmtNum(detail.peak_ccu_alltime) }}</b>
         </div>
-      </div>
+        <div class="strip-card">
+          <span>类型</span>
+          <b>{{ detail.genre || (detail.tags || [])[0] || '--' }}</b>
+        </div>
+        <div class="strip-card">
+          <span>AppID</span>
+          <b>{{ gameId }}</b>
+        </div>
+      </section>
+
+      <section v-if="detail" class="store-info-grid">
+        <div class="glass-card about-card" :style="aboutCardHeight ? { height: `${aboutCardHeight}px` } : null">
+          <p class="section-label">游戏介绍</p>
+          <p class="about-note" :title="aboutText">{{ aboutText }}</p>
+        </div>
+
+        <div class="glass-card reviews-card" ref="reviewsCardEl">
+          <p class="section-label">玩家评价与热评</p>
+          <div class="review-summary">
+            <div>
+              <span>评价摘要</span>
+              <b>{{ detail.review_summary || '--' }}</b>
+            </div>
+            <div>
+              <span>好评</span>
+              <b>{{ fmtNum(detail.total_positive) }}</b>
+            </div>
+            <div>
+              <span>好评率</span>
+              <b>{{ fmtPercent(detail.positive_ratio) }}</b>
+            </div>
+          </div>
+
+          <div v-if="(detail.hot_reviews || []).length" class="hot-review-list">
+            <article
+              v-for="(review, index) in (detail.hot_reviews || []).slice(0, 3)"
+              :key="index"
+              class="hot-review"
+              :class="{ 'hot-review--down': !review.voted_up }"
+            >
+              <header>
+                <span>{{ reviewTone(review.voted_up) }}</span>
+                <em>{{ fmtNum(review.votes_up) }} 人觉得有价值</em>
+              </header>
+              <p>{{ review.review }}</p>
+              <small>{{ review.playtime_hours || 0 }} 小时游玩</small>
+            </article>
+          </div>
+          <div v-else class="no-data">暂无热评数据</div>
+        </div>
+      </section>
 
       <!-- two-column: charts left, predict right -->
       <div class="content-grid">
@@ -352,7 +515,7 @@ const historyOption = computed(() => {
           </div>
           <div class="glass-card chart-wrap" v-else-if="priceData && priceData.is_free">
             <p class="section-label">CNY 价格走势</p>
-            <div class="no-data" style="color:#4ade80">🎮 免费游戏，无需付费</div>
+            <div class="no-data" style="color:#4ade80">免费游戏，无需付费</div>
           </div>
 
         </div>
@@ -397,69 +560,346 @@ const historyOption = computed(() => {
 </template>
 
 <style scoped>
-.game-detail { display: flex; flex-direction: column; gap: 18px; }
-
-.page-header {
+.game-detail {
   display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 20px 24px;
-  border-radius: 14px;
-  background-color: rgba(17,24,39,.85);
-  background-size: cover;
-  background-position: center right;
-  border: 1px solid var(--border);
-  min-height: 90px;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 1360px;
+  margin: 0 auto;
 }
+
+.store-detail-hero {
+  position: relative;
+  min-height: 430px;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgba(103,193,245,.2);
+  box-shadow: 0 28px 90px rgba(0,0,0,.34);
+  overflow: hidden;
+}
+
+.store-detail-hero::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0;
+  height: 3px;
+  background: linear-gradient(90deg, #67c1f5, #a4d007, #f5c451);
+}
+
+.detail-toolbar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 34px;
+}
+
 .btn-back {
-  background: transparent;
-  border: 1px solid var(--border);
-  color: #9ca3af;
-  padding: 6px 14px;
-  border-radius: 8px;
+  background: rgba(8,13,20,.62);
+  border: 1px solid rgba(103,193,245,.24);
+  color: #c7d5e0;
+  padding: 8px 14px;
   font-size: 12px;
   cursor: pointer;
   transition: all .2s;
   white-space: nowrap;
   flex-shrink: 0;
 }
-.btn-back:hover { border-color: var(--blue); color: var(--blue); }
+.btn-back:hover { border-color: #67c1f5; color: #67c1f5; background: rgba(103,193,245,.1); }
 
-.header-info { display: flex; align-items: center; gap: 16px; }
-.header-cover-wrap {
-  flex-shrink: 0;
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid rgba(255,255,255,.12);
-  box-shadow: 0 4px 20px rgba(0,0,0,.5);
+.detail-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(280px, 460px) minmax(0, 1fr);
+  gap: 28px;
+  align-items: end;
 }
-.header-cover {
-  display: block;
-  width: 184px;
-  height: 86px;
+
+.detail-media {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.detail-header-img {
+  width: 100%;
+  aspect-ratio: 460 / 215;
   object-fit: cover;
+  box-shadow: 0 18px 50px rgba(0,0,0,.42);
+}
+
+.detail-screens {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 10px;
+}
+
+.detail-screens img {
+  width: 100%;
+  height: 74px;
+  object-fit: cover;
+  opacity: .82;
+}
+
+.detail-copy {
+  max-width: 760px;
+  padding-bottom: 4px;
+}
+
+.store-kicker {
+  color: #67c1f5;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.detail-copy h1 {
+  font-family: 'Barlow Condensed', 'Noto Sans SC', sans-serif;
+  color: #fff;
+  font-size: clamp(3rem, 6vw, 6.5rem);
+  line-height: .88;
+  margin: 8px 0 16px;
+  letter-spacing: 0;
+  text-shadow: 0 10px 40px rgba(0,0,0,.55);
+}
+
+.detail-desc {
+  color: #c7d5e0;
+  max-width: 680px;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.detail-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.detail-meta--secondary {
+  margin-top: -4px;
+}
+
+.detail-meta div,
+.strip-card {
+  min-width: 0;
+  background: rgba(8, 13, 20, .55);
+  border: 1px solid rgba(255,255,255,.08);
+  padding: 10px 12px;
+}
+
+.detail-meta span,
+.strip-card span {
+  display: block;
+  color: #8f98a0;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.detail-meta b,
+.strip-card b {
+  display: block;
+  color: #eaf6ff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.detail-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 18px;
+}
+
+.detail-tags span {
+  color: #67c1f5;
+  background: rgba(103,193,245,.12);
+  border: 1px solid rgba(103,193,245,.18);
+  padding: 5px 9px;
+  font-size: 12px;
+}
+
+.detail-buy {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  width: min(430px, 100%);
+  background: rgba(0,0,0,.42);
+  border: 1px solid rgba(255,255,255,.1);
+  padding: 10px 12px;
+  column-gap: 12px;
+}
+
+.detail-buy .buy-label {
+  color: #8f98a0;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.detail-buy strong {
+  color: #b7e433;
+  font-family: 'Barlow Condensed', 'Noto Sans SC', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.detail-buy em {
+  color: #c7d5e0;
+  justify-self: end;
+  font-size: 12px;
+  font-style: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .loading-block { text-align:center; padding: 80px; color: #6b7280; font-size:13px; }
 
-.info-strip {
+.store-data-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.strip-card {
+  background: rgba(20, 43, 66, .7);
+  border-color: rgba(103,193,245,.18);
+}
+
+.strip-card b {
+  font-family: 'Barlow Condensed', 'Noto Sans SC', sans-serif;
+  font-size: 1.6rem;
+  color: #f3f7fb;
+}
+
+.store-info-grid {
+  display: grid;
+  grid-template-columns: minmax(360px, .86fr) minmax(0, 1.14fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.about-card,
+.reviews-card {
+  padding: 20px;
+}
+
+.about-card {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.about-note {
+  color: #c7d5e0;
+  display: block;
+  flex: 1 1 0;
+  font-family: 'Noto Sans SC', serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: .02em;
+  line-height: 1.9;
+  margin-bottom: 0;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-shadow: 0 1px 0 rgba(0,0,0,.24);
+}
+
+.reviews-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.review-summary div {
+  min-width: 0;
+  background: rgba(8,13,20,.42);
+  border: 1px solid rgba(255,255,255,.08);
+  padding: 9px 10px;
+}
+
+.review-summary span {
+  display: block;
+  color: #8f98a0;
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+.review-summary b {
+  display: block;
+  color: #b7e433;
+  font-family: 'Barlow Condensed', 'Noto Sans SC', sans-serif;
+  font-size: 1.45rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hot-review-list {
+  display: flex;
+  flex-direction: column;
   gap: 8px;
 }
-.info-chip {
+
+.hot-review {
+  background: rgba(8,13,20,.36);
+  border: 1px solid rgba(183,228,51,.16);
+  border-left: 3px solid #b7e433;
+  min-height: 92px;
+  padding: 12px 14px;
+}
+
+.hot-review--down {
+  border-color: rgba(248,113,113,.16);
+  border-left-color: #f87171;
+}
+
+.hot-review header {
   display: flex;
-  align-items: center;
-  gap: 6px;
-  background: rgba(96,165,250,.08);
-  border: 1px solid rgba(96,165,250,.2);
-  border-radius: 999px;
-  padding: 4px 12px;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.hot-review header span {
+  color: #eaf6ff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.hot-review header em,
+.hot-review small {
+  color: #8f98a0;
+  font-style: normal;
   font-size: 11px;
 }
-.info-chip-key { color: #6b7280; }
-.info-chip-val { color: #93c5fd; font-weight: 600; }
-.info-chip-val.tag { color: #c4b5fd; }
+
+.hot-review p {
+  color: #c7d5e0;
+  display: -webkit-box;
+  font-size: 13px;
+  line-height: 1.55;
+  margin-bottom: 7px;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
 
 .content-grid {
   display: grid;
@@ -512,4 +952,28 @@ const historyOption = computed(() => {
 }
 .predict-month { color: #9ca3af; font-size: 11px; }
 .predict-ccu  { color: #fbbf24; font-weight: 600; font-family:'Rajdhani',sans-serif; font-size:14px; }
+
+@media (max-width: 980px) {
+  .detail-hero-grid,
+  .content-grid,
+  .store-info-grid {
+    grid-template-columns: 1fr;
+  }
+  .predict-col { width: 100%; }
+}
+
+@media (max-width: 720px) {
+  .store-detail-hero { padding: 16px; }
+  .detail-toolbar { margin-bottom: 22px; }
+  .detail-copy h1 { font-size: 3.1rem; }
+  .detail-meta,
+  .detail-buy,
+  .review-summary,
+  .store-data-strip {
+    grid-template-columns: 1fr;
+  }
+  .detail-buy em { justify-self: start; }
+  .price-stats { width: 100%; justify-content: space-between; }
+  .pstat { align-items: flex-start; }
+}
 </style>

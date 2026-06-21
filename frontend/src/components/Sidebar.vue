@@ -8,9 +8,10 @@ const syncing  = ref(false)
 const syncMsg  = ref('')
 
 const navItems = [
-  { to: '/',        icon: '📊', label: '总览' },
-  { to: '/compare', icon: '⚔️', label: '对比' },
-  { to: '/market',  icon: '💰', label: '市场' },
+  { to: '/',          icon: 'S', label: '商店' },
+  { to: '/dashboard', icon: 'D', label: '数据' },
+  { to: '/compare',   icon: 'C', label: '对比' },
+  { to: '/market',    icon: 'M', label: '市场' },
 ]
 
 async function doSync() {
@@ -32,7 +33,7 @@ async function doSync() {
   <nav class="sidebar-nav">
     <!-- logo -->
     <div class="nav-logo">
-      <span class="logo-icon">🎮</span>
+      <span class="logo-icon">CCU</span>
     </div>
 
     <!-- nav items -->
@@ -53,7 +54,7 @@ async function doSync() {
     <!-- sync button at bottom -->
     <div class="nav-bottom">
       <button class="nav-item nav-sync" @click="doSync" :disabled="syncing" :title="syncing ? '同步中...' : '同步数据'">
-        <span class="nav-icon" :class="{ spinning: syncing }">⟳</span>
+        <span class="nav-icon" :class="{ spinning: syncing }">↻</span>
         <span class="nav-tooltip">{{ syncMsg || (syncing ? '同步中' : '同步') }}</span>
       </button>
     </div>
@@ -84,7 +85,13 @@ async function doSync() {
   justify-content: center;
   margin-bottom: 12px;
 }
-.logo-icon { font-size: 22px; }
+.logo-icon {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #67c1f5;
+  letter-spacing: 0;
+}
 
 .nav-items {
   display: flex;
@@ -124,7 +131,12 @@ async function doSync() {
   box-shadow: 0 0 16px rgba(96,165,250,.25);
 }
 
-.nav-icon { font-size: 18px; line-height: 1; }
+.nav-icon {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+}
 
 /* tooltip on hover */
 .nav-tooltip {

@@ -41,7 +41,19 @@ def get_trend_points(appid: int, days: int) -> List[dict]:
         {"appid": appid, "ts": {"$gte": since}},
         {"_id": 0, "ts": 1, "ccu": 1},
     ).sort("ts", 1)
-    return list(cursor)
+    points = list(cursor)
+    if len(points) >= 2:
+        return points
+
+    fallback = list(
+        ccu_col.find(
+            {"appid": appid, "source": "steamcharts_monthly"},
+            {"_id": 0, "ts": 1, "ccu": 1},
+        )
+        .sort("ts", -1)
+        .limit(max(days, 12))
+    )
+    return list(reversed(fallback)) if fallback else points
 
 
 def get_recent_n_points(appid: int, n: int = 7) -> List[int]:
@@ -49,6 +61,16 @@ def get_recent_n_points(appid: int, n: int = 7) -> List[int]:
     docs = list(
         ccu_col.find({"appid": appid, "ts": {"$gte": since}}, {"_id": 0, "ccu": 1}).sort("ts", 1)
     )
+    if len(docs) < 3:
+        docs = list(
+            ccu_col.find(
+                {"appid": appid, "source": "steamcharts_monthly"},
+                {"_id": 0, "ccu": 1},
+            )
+            .sort("ts", -1)
+            .limit(n)
+        )
+        docs = list(reversed(docs))
     return [int(d["ccu"]) for d in docs]
 
 

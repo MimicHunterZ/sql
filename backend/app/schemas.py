@@ -13,6 +13,9 @@ class GameSummary(BaseModel):
     tags: List[str] = Field(default_factory=list)
     positive_ratio: Optional[float] = None
     price_usd: Optional[float] = None
+    is_free: Optional[bool] = None
+    current_cny: Optional[float] = None
+    current_discount: Optional[int] = None
 
 
 class TrendPoint(BaseModel):

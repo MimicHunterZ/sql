@@ -13,20 +13,53 @@
       "电竞",
       "战术",
       "第一人称",
-      "玩家对战"
+      "玩家对战",
+      "免费开玩",
+      "跨平台多人"
     ],
     "review_summary": "特别好评",
     "developer": "Valve",
-    "release_date": "2012 年 8 月 22 日",
-    "peak_ccu_alltime": 1818773,
-    "current_ccu": 1220751,
-    "genre": "FPS",
-    "is_free": true
+    "release_date": "2017 年 9 月 15 日",
+    "peak_ccu_alltime": 1818368,
+    "current_ccu": 1271846,
+    "genre": "动作",
+    "is_free": true,
+    "detailed_desc": "二十多年来，在全球数百万玩家的共同铸就下，Counter-Strike 提供了精湛绝伦的竞技体验。而如今，CS 传奇的下一章即将揭开序幕，那就是 Counter-Strike 2。 Counter-Strike 2 是 CS:GO 的免费升级版，展现了 Counter-Strike 历史上最大的技术飞跃。Counter-Strike 2 由 Source 2 引擎打造，具备基于物理的逼真渲染、最为先进的网络、经过升级的社区创意工坊工具，令人耳目一新。 Counter Strike 系列于 1999 年开创了以完成目标为重的游戏玩法，而 Counter Strike 2 除了将这一经典元素保留，还会呈现以下特色： 全新 CS 综合得分与经过更新的优先权模式 全球及区域排行榜 经过升级和大改的地图 革命性的动态烟雾弹 不受刷新频率阻碍的游戏体验 全新设计的声画效果 CS:GO 的所有物品均迁移至 CS2",
+    "publisher": "Valve",
+    "review_score_desc": "特别好评",
+    "total_reviews": 9673874,
+    "total_positive": 8330315,
+    "positive_ratio": 86.1,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "元老级别的FPS，无论有多少日新月异的新FPS游戏， CS始终是要逾越过去的一座大山。 个人玩家轻轻松松破几千小时，我得评价是夯爆了（看见可不可以给我点点赞，想要点数买涩涩的头像）",
+        "votes_up": 388,
+        "playtime_hours": 269.9,
+        "timestamp_created": 1779523520
+      },
+      {
+        "voted_up": true,
+        "review": "游玩1000➕小时啦，恰逢2024年年末，突然迷之感性，想来小谈两句。 大概是2021年，那时候我还是在四川的一个五线小城市里的苦逼高二学生，在我上这之前，我只知道cf,逆战啥，而且第一次在我同学口中听到cs这个游戏时，还常常把其与cf混为一谈。 我的高中是寄宿学校，只有一个月才有两天的月假，平时周末只能休息六个小时，由于我的高中离城区有二三十公里，这六个小时我们只能选择留在小镇上。 在接触cs之前，我的这六个小时就窝在宿舍打打手机游戏，或者去操场打打篮球。那时候抖音短视频平台里cs的热度很高，茄子啥的主播都非常火",
+        "votes_up": 100,
+        "playtime_hours": 1826.1,
+        "timestamp_created": 1780716878
+      },
+      {
+        "voted_up": true,
+        "review": "这个世界上最好玩的短ttk fps游戏 我真希望cncs能出现一个像donk一样的天才，我真希望cncs能越来越好",
+        "votes_up": 45,
+        "playtime_hours": 707.7,
+        "timestamp_created": 1780016650
+      }
+    ],
+    "peak_24h": 1295496,
+    "last_enriched_at": "2026-06-21T12:51:09Z"
   },
   "570": {
     "appid": "570",
     "name": "Dota 2",
-    "short_desc": "",
+    "short_desc": "每一天全球有数百万玩家化为一百余名Dota英雄展开大战。不论是游戏时间刚满10小时还是1000小时，比赛中总能找到新鲜感。定期的更新则保证游戏性、功能和英雄都能持续发展，Dota 2已真正地焕发了生命。",
     "tags": [
       "免费开玩",
       "多人在线战术竞技",
@@ -35,20 +68,55 @@
       "电竞",
       "团队导向",
       "竞技",
-      "动作"
+      "动作",
+      "合作",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "SteamVR 收藏品"
     ],
-    "review_summary": "褒贬不一",
+    "review_summary": "特别好评",
     "developer": "Valve",
-    "release_date": "2013 年 7 月 10 日",
+    "release_date": "2013 年 7 月 9 日",
     "peak_ccu_alltime": 1291328,
-    "current_ccu": 562224,
-    "genre": "MOBA",
-    "is_free": true
+    "current_ccu": 605673,
+    "genre": "动作",
+    "is_free": true,
+    "detailed_desc": "Steam 上最具人气的游戏 每一天，全球有数百万玩家化为一百余名Dota英雄展开大战。不论是游戏时间刚满10小时还是1000小时，比赛中总能找到新鲜感。定期的更新则保证游戏性、功能和英雄都能持续发展，Dota 2已真正地焕发了生命。 一个战场无限可能 在英雄、技能和物品的多样性方面，Dota可谓是无与伦比——绝不可能存在两场相同的比赛。每个英雄都有多种定位打法，丰富的物品可以满足每场比赛的具体需求。Dota从不限制打法，只为让您展现自己的风采。 所有英雄无需付费 公平竞技是Dota的基石，为确保所有人的游戏基础相同，游戏的核心内容——如庞大的英雄数量——对所有玩家开放。粉丝们可以收集英雄饰品，和有趣的附加内容，但是进行游戏所需的一切在开始第一场比赛前就已经赋予。 与好友携手一同游玩 Dota内涵深邃，并且不断进化，但不论何时加入都不算太晚。 合作对抗机器人可以模拟实战。英雄试玩模式可以磨练技艺。而比赛的匹配系统，兼顾玩家的游戏行为和水平，确保每场比赛都能将合适的玩家匹配到一起。",
+    "publisher": "Valve",
+    "review_score_desc": "特别好评",
+    "total_reviews": 2726147,
+    "total_positive": 2200964,
+    "positive_ratio": 80.7,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "After 4,800 hours in Dota 2, I can confidently say this is the best game I absolutely do not recommend to anyone. The strategy? Amazing. The gameplay? Endless depth. The community? A live psychological experiment. I’ve met geniuses, comedians, future war crimi",
+        "votes_up": 164,
+        "playtime_hours": 4912.6,
+        "timestamp_created": 1779617758
+      },
+      {
+        "voted_up": true,
+        "review": "游戏匹配机制完全拿玩家耍猴",
+        "votes_up": 32,
+        "playtime_hours": 8228.5,
+        "timestamp_created": 1779828958
+      },
+      {
+        "voted_up": false,
+        "review": "I haven't had a communication score allowing me to chat, ping or voice chat in about 2 years on this game. We used to be able to talk, meet random funny people, friendly people or not so nice people in the game and play together. Not anymore. On the rare occas",
+        "votes_up": 76,
+        "playtime_hours": 16652.6,
+        "timestamp_created": 1779889469
+      }
+    ],
+    "peak_24h": 651800,
+    "last_enriched_at": "2026-06-21T12:51:11Z"
   },
   "578080": {
     "appid": "578080",
     "name": "PUBG: BATTLEGROUNDS",
-    "short_desc": "",
+    "short_desc": "《PUBG》，这款引领战术竞技热潮、紧张刺激的胜者为王射击游戏，现已开放免费游玩！在丰富多变的地图中降落，搜寻独特武器和物资，在不断缩小的安全区中求生，每个转角都可能是你的末路。",
     "tags": [
       "生存",
       "射击",
@@ -57,20 +125,55 @@
       "第一人称射击",
       "玩家对战",
       "第三人称射击",
-      "动作"
+      "动作",
+      "冒险",
+      "大型多人在线",
+      "免费开玩",
+      "线上玩家对战"
     ],
-    "review_summary": "多半好评",
+    "review_summary": "褒贬不一",
     "developer": "PUBG Corporation",
     "release_date": "2017 年 12 月 21 日",
-    "peak_ccu_alltime": 3257248,
-    "current_ccu": 450940,
-    "genre": "Battle Royale",
-    "is_free": true
+    "peak_ccu_alltime": 3236027,
+    "current_ccu": 670301,
+    "genre": "动作",
+    "is_free": true,
+    "detailed_desc": "降落， 纵身跃入不断扩展和变化的地图，迎接全新挑战。你会冒着物资匮乏的风险选择较为安全的边缘地带，还是直接空降人潮密集的城区，一落地就展开激战？每一次降落都是全新的挑战，如何利用手头资源生存，全凭你的战术与战略。 搜集， 独特武器、丰富物资与特殊道具助你智胜对手，如何武装自己，由你决定！为你钟爱的武器搭配强力配件，或为了稀有战利品冒险争夺众人觊觎的补给箱，扩大自己在战场上的优势。 求生 搜集物资只是生存的第一步。随着安全区不断缩小，遭遇其他生存者的几率也大幅上升。一旦阵亡，就彻底出局。只有比对手更聪明、更迅速，或枪法更胜一筹，才能存活到最后，成为最终吃鸡的赢家。 多样玩法， 在团队淘汰竞赛中热身，尝试街机模式的多变玩法，体验全新赛季活动，或创建自定义大厅，和好友来一场特别的较量！ 独特战局 每一场战斗都独一无二，你的每次降落、搜集和求生的决策都至关重要。空降战场后，你的每一个选择都可能关乎胜负；战斗到底，力争成为最后的生存者。 可自由选择购买的游戏内商品已上架。",
+    "publisher": "KRAFTON, Inc.",
+    "review_score_desc": "褒贬不一",
+    "total_reviews": 2723949,
+    "total_positive": 1644798,
+    "positive_ratio": 60.4,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "I've played PUBG since before its full release. I have over 2,000 hours in this game. That number means something. It means I didn't just try PUBG and move on. I stuck with it. I came back to it. I played it through bad patches, bad performance, cheaters, bugs",
+        "votes_up": 244,
+        "playtime_hours": 2154.7,
+        "timestamp_created": 1780259464
+      },
+      {
+        "voted_up": true,
+        "review": "非常好玩呀，都是高手，被虐爽了，非常喜欢这种当m的感觉。",
+        "votes_up": 35,
+        "playtime_hours": 2783.6,
+        "timestamp_created": 1779882642
+      },
+      {
+        "voted_up": true,
+        "review": "要是没有外挂这游戏我愿称之为最好玩的游戏没有之一",
+        "votes_up": 35,
+        "playtime_hours": 1708.5,
+        "timestamp_created": 1780113661
+      }
+    ],
+    "peak_24h": 783553,
+    "last_enriched_at": "2026-06-21T12:51:14Z"
   },
   "271590": {
     "appid": "271590",
     "name": "Grand Theft Auto V 传承版",
-    "short_desc": "",
+    "short_desc": "PC 版Grand Theft Auto V 能够以超越 4K 的最高分辨率和 60 帧每秒的帧率，为您呈现屡获殊荣、令人痴迷的游戏世界——洛桑托斯市和布雷恩郡。",
     "tags": [
       "开放世界",
       "动作",
@@ -79,20 +182,55 @@
       "汽车模拟",
       "第三人称",
       "第一人称",
-      "射击"
+      "射击",
+      "冒险",
+      "单人",
+      "玩家对战",
+      "线上玩家对战"
     ],
     "review_summary": "特别好评",
     "developer": "Rockstar North",
-    "release_date": "2015 年 4 月 14 日",
-    "peak_ccu_alltime": 364548,
-    "current_ccu": 155600,
-    "genre": "Action",
-    "is_free": false
+    "release_date": "2015 年 4 月 13 日",
+    "peak_ccu_alltime": 360761,
+    "current_ccu": 90188,
+    "genre": "动作",
+    "is_free": false,
+    "detailed_desc": "一个初涉江湖的街头新丁、一个洗手多年的银行劫匪和一个丧心病狂的杀人狂魔，误打误撞中深陷犯罪集团、美国政府和娱乐产业之间盘根错杂的恐怖困境。他们必须齐心协力，接连完成九死一生的惊天劫案，才能在这个冷血无情的城市中苟延残喘。不要相信任何人，尤其是你的同伙！ PC 版Grand Theft Auto V 能够以超越 4K 的最高分辨率和 60 帧每秒的帧率，为您呈现屡获殊荣、令人痴迷的游戏世界——洛桑托斯市和布雷恩郡。 游戏为 PC 玩家提供了巨细无遗的独享自定义选项，包括纹理质量、着色器、曲面细分、反锯齿等超过 25 种不同设定，还有支持键鼠操控的广泛自定义功能。其他选项包括可控制车辆和行人流量的人口密度滑杆，以及对双屏、三屏、3D 和即插即用手柄的支持。 Grand Theft Auto V 同时包含 Grand Theft Auto 在线模式，这个活力四射、瞬息万变的联网世界支持多达 30 位玩家同时进行游戏，并且囊括了自发布以来的所有游戏升级以及内容更新。您可以凭借非法贸易发家致富，以 CEO 的身份一手打造自己的犯罪帝国；创立摩托车会以称霸街头；携手好友上演逆天抢劫任务；体验命悬一线的特技竞速；在独特的竞争模式中一展身手；更可以信马由缰，亲手为游戏创作新内容，并与全世界的 GTA 玩家共享。 PC 版 Grand Theft Auto V 和 GTA 在线模式同时提供第一视角模式，让玩家能够以全新方式探索游戏中洛桑托斯市和布雷恩郡细腻逼真、令人惊艳的种种细节。 随着 PC 版 Grand Theft Auto V 的推出，Rockstar 编辑器也一并登场。作为一套功能强大的创作工具，它能让玩家快速轻松地录制、编辑和分享在 Grand Theft Auto V 及 GTA 在线模式中的游戏影像。Rockstar 编辑器的导演模式能让玩家使用故事模式中的主要角色、路人，甚至是动物进行搭台布景，任由玩家天马行空，随心创作。除了高级镜头控制和剪辑特效 （包括快动作和慢动作） 以及多种镜头滤镜以外，玩家还可以将游戏中的电台曲目作为配乐，或者对游戏配乐的强度进行动态控制。影片制作完成后，可以直接从 Rockstar 编辑器上传至社交网络和 Rockstar Games Social Club，与其他玩家轻松分享您的游戏激情。 游戏原声音乐的创作者 The Alchemist 和 Oh No 同时回归游戏，作为 The Lab FM 电台的主持人。这个电台主打二者以游戏原声音乐为灵感创作的全新独家曲目，合作艺人包括 Earl Sweatshirt、Freddie Gibbs、Little Dragon、Killer Mike、Future Islands 的 Sam Herring 等等。此外，玩家也可以在洛桑托斯市和布雷恩郡寻幽探胜之际，通过由个人电台创建的自定义",
+    "publisher": "Rockstar Games",
+    "review_score_desc": "特别好评",
+    "total_reviews": 2063514,
+    "total_positive": 1808250,
+    "positive_ratio": 87.6,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "你下车，关上车门，镀铬的桑托斯阳光把引擎盖烤得发烫。手机响起，是莱斯特——又有一票活，他说得很快，你只听清了\"爆破\"和\"两百万\"。挂掉电话，你靠在车旁抽了根烟，看着头顶一架警用直升机慢悠悠划过天际线。这是洛圣都一个普通的下午，而你已经在这座城市里消磨了十一年。十一年前你第一次来到这里的时候，硬盘还是机械的，显卡还是 Maxwell 架构的，而这个游戏曾让所有人以为，开放世界走到了尽头。如今它被改了个名字——\"传承版\"——放在 Steam 库里，像一个被降级的旧部长，搬进了偏厅办公。 一、背景与革新 2025 年 3",
+        "votes_up": 13,
+        "playtime_hours": 33.9,
+        "timestamp_created": 1780570593
+      },
+      {
+        "voted_up": true,
+        "review": "The king of the games. Still so much fun. Still feels good to play. Definetely better with friends where there are no cheaters who puts you in the cages as a chichen :)",
+        "votes_up": 6,
+        "playtime_hours": 383.1,
+        "timestamp_created": 1779450366
+      },
+      {
+        "voted_up": false,
+        "review": "First off I loved the game itself, more so the online play. On the single player, main story, I mainly have an issue of flying out of the vehicle when crashing. The game provides no option for buckling up the seat belt to prevent this, online play disabled thi",
+        "votes_up": 7,
+        "playtime_hours": 292.6,
+        "timestamp_created": 1781442035
+      }
+    ],
+    "peak_24h": 92154,
+    "last_enriched_at": "2026-06-21T12:51:16Z"
   },
   "252490": {
     "appid": "252490",
     "name": "Rust",
-    "short_desc": "",
+    "short_desc": "在《Rust》的世界里，生存即是唯一目标。万事万物都想要置你于死地：岛上的野生动物、其他居民、环境以及其他幸存者。尽一切可能，再熬过一个晚上吧。",
     "tags": [
       "生存",
       "制作",
@@ -101,15 +239,50 @@
       "开放世界生存制作",
       "建造",
       "玩家对战",
-      "沙盒"
+      "沙盒",
+      "动作",
+      "冒险",
+      "独立",
+      "大型多人在线"
     ],
     "review_summary": "特别好评",
     "developer": "Facepunch Studios",
-    "release_date": "2018 年 2 月 9 日",
-    "peak_ccu_alltime": 244477,
-    "current_ccu": 78000,
-    "genre": "Survival",
-    "is_free": false
+    "release_date": "2018 年 2 月 8 日",
+    "peak_ccu_alltime": 259646,
+    "current_ccu": 122774,
+    "genre": "动作",
+    "is_free": false,
+    "detailed_desc": "在《Rust》的世界里，生存即是唯一目标。万事万物都想要置你于死地：岛上的野生动物、其他居民、环境以及其他幸存者。尽一切可能，再熬过一个晚上吧。 《Rust》如今已步入持续扩展的第13年，发布了超过395次内容更新，且承诺每月都将推出内容补丁。其中包括定期修复平衡性、改进人工智能和图像、更新生态环境和频繁推出新内容，例如新地图、更多武器、额外载具和大量设施物品。留意定期推出的季度活动，因为岛上总会有些趣事或险情（或有趣的险情）发生。 游戏更新包括： 程序生成的世界，支持社区地图编辑器 主持你自己的服务器，可定制服务器端 交通工具：马匹、模组化汽车、热气球、直升机、自行车、火车、游船等 建设与洗劫基地 全新派系、敌人和野生动物 可供探索的进阶水下区域 错综复杂的电力、农业和自动化系统 可供探索的全新纪念碑、地形和区域 大型地面和地下列车网络 演奏乐器，在玩家们面前尽情表演 近期的图像大升级和环境改造 原始游戏模式、攻城武器和载具 全新丛林生态系，其中包括更多野兽、任务和纪念碑 2026年新增内容：模组化游船、深海、热带岛屿、浮游城市，以及更多精彩内容！ 本年后续还将推出更多内容，其中包括玩家角色的模型更新、公寓楼群纪念碑、更多动物，以及针对洞穴和隧道的升级！ 探索 你在某座神秘岛屿上醒来，身上一丝不挂，随身物品只有一块石头和一支火炬。你需要勇敢面对大自然中的危险和挑战（从炎热和寒冷，再到口渴和饥饿）、建造庇护所、进食（或成为别人的盘中餐），以及搜刮素材。探索岛屿及其废弃的定居点、神秘的纪念碑和霸占它们的派系。 但最关键的是，密切关注其他幸存者的动向…… 建造 设计和建造基地来存放你的战利品、捍卫你的领土并控制岛上的资源。研究科技树、发展农场、分配电力并征用各种交通工具穿越岛屿。尽一切可能夺得先机。 求生 《Rust》的世界里没有规则，规则由你来定。制作工具、盔甲和武器来保护自己。与朋友合作、结盟，共同建立定居点。探索岛屿，了解岛上动态，与其他玩家交易，或将他们洗劫一空，突袭他们的基地并抢走他们来之不易的货物。",
+    "publisher": "Facepunch Studios",
+    "review_score_desc": "特别好评",
+    "total_reviews": 1372343,
+    "total_positive": 1192442,
+    "positive_ratio": 86.9,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "If you enjoy the feeling of your balls being placed in a hydraulic press, this game is a great fit for you!",
+        "votes_up": 302,
+        "playtime_hours": 1673.3,
+        "timestamp_created": 1779408648
+      },
+      {
+        "voted_up": false,
+        "review": "Do not play this game if you have any hopes and dreams for your life. I am serious. This game will take everything from you. The wife... the kids... the house... even the dog... it's all gone. Was it worth it? Maybe. I don't have the answer for that right now.",
+        "votes_up": 267,
+        "playtime_hours": 6900.7,
+        "timestamp_created": 1779932921
+      },
+      {
+        "voted_up": true,
+        "review": "Build a home than it got raided and I got kidnapped and they kept moaning into my ear telling me to call them daddy than I did it got taken to the middle of no where for when i called for help made it back home just in time to hop on rust with my friends such ",
+        "votes_up": 38,
+        "playtime_hours": 19.5,
+        "timestamp_created": 1781242352
+      }
+    ],
+    "peak_24h": 144190,
+    "last_enriched_at": "2026-06-21T12:51:19Z"
   },
   "1086940": {
     "appid": "1086940",
@@ -123,15 +296,50 @@
       "多人",
       "合作",
       "在线合作",
-      "局域网合作"
+      "局域网合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌"
     ],
     "review_summary": "好评如潮",
     "developer": "Larian Studios",
     "release_date": "2023 年 8 月 3 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 875343,
+    "current_ccu": 44083,
     "genre": "冒险",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "召集你的队伍，重返被遗忘的国度。这里有友情与背叛，牺牲与求生，还有那股让人难以抗拒的——至上力量的诱惑。 神秘的力量正在你体内苏醒，而这一切都来源于夺心魔种在你大脑里的寄生虫。反抗吧，将黑暗的力量转为己用；你也可以任由腐化蔓延，亲手把自己塑造成终极邪恶。 由《神界：原罪2》原班人马倾力打造，这款基于《龙与地下城》规则的次世代 RPG 巨作，等你来战。 你可以从《龙与地下城玩家手册》中的12个职业与11个种族中进行选择，或者直接扮演一位拥有量身打造背景故事的“起源英雄”。如果你渴望更深层的挣扎，那就化身“邪念”——一个完全可定制的起源英雄，拥有独一无二的机制和黑暗故事线，去与你内心的腐化欲望纠缠。无论你选择成为谁，你都可以在“被遗忘的国度”及更广阔的世界中冒险、搜刮、战斗，甚至谈一场轰轰烈烈的恋爱。召集你的队伍，既可以独自上路，也支持最多四人在线联机。 被劫持，被感染，陷入迷失。你正在变成一个怪物，但随着你体内腐化力量的增长，你的力量也在增强。这力量或许能助你幸存下来，但在接受它的同时，你必将付出某种代价。然而，超越任何异能，你与队友之间建立的信任纽带可能会成为你最大的力量。在恶魔、诸神以及种种不可名状的异界力量交织的冲突中，你们将一起决定“被遗忘的国度”的最终命运。 利用全新的Divinity4.0引擎打造，《博德之门3》将为你提供前所未有的自由度，让在这个充满角色、危险和欺诈的鲜活世界中探索、尝试、互动，并获取即时的反馈。宏大的电影级叙事将拉近你与角色的距离。从幽影诅咒笼罩的森林，到幽暗地域的魔法洞穴，再到博德之门熙攘的街头——你的行动定义了这段冒险，而你的选择将定义你的传奇。你，终将被世人铭记。 “被遗忘的国度”是一个宏大、细节繁多、充满丰富多样性的世界，到处都有等待被你发现的秘密——你可以潜行、通过蘸取借力、推击敌人、攀爬高地、极限跳跃。这些行动会贯穿你的整个旅途，从大地深处的幽暗地域，到地表城市熠熠生辉的屋顶。你的每一个选择都会推动故事向前发展，每一个决定都会在世界上留下你的印记。你可以提升自己的角色、培养盟友或树立宿敌，用你自己的方式解决问题。绝不会有两次完全相同的游戏体验。 你可以将你的团队联合起来，同时攻击敌人；也可以将队伍分开，各自执行自己的任务和计划。你们可以共同制定完美的作战方案……或者在队友最意想不到的时候制造一点混乱（比如搞点小动作）。人际关系本就复杂，更何况你们每个人脑子里都塞着一条寄生虫。 7位独一无二的起源角色为你带来精雕细琢的体验，每个人都有自己独特的特质、思想和世界观。他们的故事与主线叙事相互交错，而你的选择将决定这些故事的结局是救赎、拯救、统治，还是其他更多结局。你可以直接扮演他们，或者招募他们并肩作战。 基于第五版《龙与地下城》规则。你可以体验基于团队战斗的先攻机制，以及在战斗中不同决策带来的优势和劣势。我们增添了战术视",
+    "publisher": "Larian Studios",
+    "review_score_desc": "好评如潮",
+    "total_reviews": 843628,
+    "total_positive": 816608,
+    "positive_ratio": 96.8,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "Play as paladin. Choose [Lie] in dialog. Game crashes. Immersive oathbreaking experience.",
+        "votes_up": 180,
+        "playtime_hours": 125.8,
+        "timestamp_created": 1780667417
+      },
+      {
+        "voted_up": true,
+        "review": "I have too many hours in this game. This has been my favioute game for several years now. I even finished honour mode. It is high time I left a review. Absolute cinema - everything out of 10. Perfection.",
+        "votes_up": 110,
+        "playtime_hours": 1745.0,
+        "timestamp_created": 1780745997
+      },
+      {
+        "voted_up": true,
+        "review": "非常好的游戏，使我的屁股粘在电脑桌子前面",
+        "votes_up": 35,
+        "playtime_hours": 252.1,
+        "timestamp_created": 1780229669
+      }
+    ],
+    "peak_24h": 56706,
+    "last_enriched_at": "2026-06-21T12:51:21Z"
   },
   "1245620": {
     "appid": "1245620",
@@ -144,15 +352,51 @@
       "多人",
       "玩家对战",
       "线上玩家对战",
-      "合作"
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "视角舒适度"
     ],
-    "review_summary": "好评如潮",
+    "review_summary": "特别好评",
     "developer": "FromSoftware, Inc.",
     "release_date": "2022 年 2 月 24 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 952523,
+    "current_ccu": 39555,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "・充满刺激的辽阔世界 无缝连接的辽阔世界──尽情探索状况多变的开放场景，构造复杂、立体的巨大地下迷宫。 在探索新发现时感到欣喜，在征服强敌时感到成就感十足，丰富内容等你体会。 ・专属于你的角色 不只能自订操纵角色的外表，更能自行搭配武器、装备，与魔法── 想成为力量取胜的顽强战士，或选择在魔法领域登峰造极，都能照自己的游玩风格决定。 ・源自神话的群像剧 片段破碎，却又多彩的故事──以“交界地”为舞台登场的角色们各有主张， 于是在利害关系之下谱成的群像剧，就此展开。 ・与其他玩家维持非即时连系的独特系统 除了能与其他玩家一同游玩的多人联机游玩以外， 本游戏也有非即时联机系统，能借此得知其他玩家的存在。",
+    "publisher": "FromSoftware, Inc., Bandai Namco Entertainment",
+    "review_score_desc": "特别好评",
+    "total_reviews": 1139275,
+    "total_positive": 1060246,
+    "positive_ratio": 93.1,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "游戏还是挺好玩的，就是小蓝熊突然不准我玩了。",
+        "votes_up": 55,
+        "playtime_hours": 211.1,
+        "timestamp_created": 1780059592
+      },
+      {
+        "voted_up": true,
+        "review": "打击有温度，肘击有力度. 盾戳正是成为王的理由。",
+        "votes_up": 26,
+        "playtime_hours": 141.7,
+        "timestamp_created": 1780183924
+      },
+      {
+        "voted_up": true,
+        "review": "[h3]A generational game, but not without flaws[/h3] To preface this review: my only experience with any souls-like was 'The First Berserker: Khazan', and I never finished it. Actually, I almost never finished Elden Ring either. A few hours in, and I was ready ",
+        "votes_up": 48,
+        "playtime_hours": 84.0,
+        "timestamp_created": 1780227239
+      }
+    ],
+    "peak_24h": 44259,
+    "last_enriched_at": "2026-06-21T12:51:23Z"
   },
   "2399830": {
     "appid": "2399830",
@@ -167,15 +411,49 @@
       "单人",
       "多人",
       "玩家对战",
-      "线上玩家对战"
+      "线上玩家对战",
+      "抢先体验",
+      "局域网玩家对战",
+      "合作"
     ],
-    "review_summary": "多列好评",
-    "developer": "Studio Wildcard",
+    "review_summary": "褒贬不一",
+    "developer": "Studio Wildcard, Grove Street Games, Instinct Games",
     "release_date": "2023 年 10 月 25 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 98047,
+    "current_ccu": 28175,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "进入一场全新的恐龙生存体验，这一切将超越您最狂野的幻想……《方舟》采用虚幻引擎 5 重新设计，并融入了下一代电子游戏技术！您会在一个神秘的小岛上醒来，刺眼的阳光和绚丽的色彩将使你目不暇接. 蔚蓝的海水拍打着您赤裸的双脚。迷雾丛林中回荡的低沉吼叫让你猛然惊醒，你站了起来--却不是因为害怕，而是因为好奇。你准备好组建一个部落，驯养和繁殖数百种恐龙和其他原始生物，探索、制作、建造，并一路进发至食物链的顶端了吗？一场新的冒险在等待着你......不要再犹豫了,快来加入这个世界吧！ 游戏特色 ● 《方舟：生存飞升》重新构思了ARK的艺术设计和游戏世界，采用了最新的虚幻引擎5游戏技术，包括高端图形功能技术，例如全局动态照明（Lumen），使光线在物体表面形成逼真的反射效果，以及由数亿个三角形组成的高级网格流技术（Nanite），以呈现出极致的细节。 ● 游戏还采用了全新的物理系统，例如动态水体，使每个生物在液体中移动时都会产生波浪、涟漪、飞溅和气泡，同时还有完全交互式的物理植被，每片草、灌木和树都会对角色、爆炸、抛射物和物理物体做出反应。你甚至可以砍倒一棵树，看着它撞向其他树木，并在砸向下方草地的途中扰乱所有树叶。你甚至可以通过观察草丛的动向来确定偷偷移动的敌人的位置——因为草丛会随着敌人而移动摇摆。当你拆毁一栋建筑时，可以看到碎片更真实地四分五裂，并在落下时与草地和水体发生交互。 ● 通过《方舟：生存飞升》可以访问所有方舟世界，包括焦土、畸变、灭绝、创世纪1、ARK 创世纪第二部分等等。孤岛地图现已发布，后续扩展地图将定期免费添加。 ● 这次的终极生存体验将开启更加精彩的新篇章：自定义你的幸存者，组建一个部落，在一个真实的生态系统中驯化、训练、繁衍和驾驭各种恐龙。你需要时刻关注食物、水源、温度和天气变化。在采集、建造建筑、种植农作物、自定义游戏世界的过程中，慢慢扩张领土，探索并揭开孤岛及其他世界的真面目。 ● 在游戏体验的各个方面都进行了更彻底的改进：重新设计的用户界面，智能生物寻路的动态导航，野生恐龙宝宝，照片模式，新的相机系统，新的地图系统，追踪系统，全新的建筑、物品和生物等等。 ● 跨平台模组：您可以直接在游戏中通过专门的模组浏览器 下载并畅玩由其他玩家创造的新内容，包括新地图、生物、物品以及游戏模式！随着社群的创造力和才能首次在各个平台上得到充分释放，您将源源不断地享受到有关方舟新玩法！ ● 跨平台多人游戏：与不同游戏平台上的其他玩家一起组建在线部落，共同在方舟的世界中生存和发展！ ● 游戏支持多达70名玩家的公共在线多人游戏，最多可容纳8名玩家的私人游戏，以及2至4名玩家的本地分屏模式。",
+    "publisher": "Studio Wildcard, Snail Games USA",
+    "review_score_desc": "褒贬不一",
+    "total_reviews": 108028,
+    "total_positive": 65267,
+    "positive_ratio": 60.4,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "What can be said here? ASE was a perfect game. A lot of people could run it without issues, mods were free, and moderators relied on goodwill donations from generous players, especially on the PvE side of things. As for PvP, everything felt solid — maps were r",
+        "votes_up": 136,
+        "playtime_hours": 194.2,
+        "timestamp_created": 1779625933
+      },
+      {
+        "voted_up": false,
+        "review": "After 2 Thousand hours on official my character was deleted due to a bug when transferring servers. I made supports tickets through the proper channels (website,discord) and received no response for almost a month. When my issue was finally adressed everything",
+        "votes_up": 147,
+        "playtime_hours": 2184.1,
+        "timestamp_created": 1779552129
+      },
+      {
+        "voted_up": false,
+        "review": "退款前来刷个差评，5070ti2k中画质70-80帧，面朝地板才100，不会做游戏别做了行吗",
+        "votes_up": 32,
+        "playtime_hours": 0.8,
+        "timestamp_created": 1779689338
+      }
+    ],
+    "peak_24h": 30741,
+    "last_enriched_at": "2026-06-21T12:51:25Z"
   },
   "1091500": {
     "appid": "1091500",
@@ -187,15 +465,52 @@
       "Steam 成就",
       "完全支持控制器",
       "Steam 集换式卡牌",
-      "可调整文字大小"
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "随时保存"
     ],
-    "review_summary": "好评如潮",
+    "review_summary": "特别好评",
     "developer": "CD PROJEKT RED",
     "release_date": "2020 年 12 月 9 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 830387,
+    "current_ccu": 65297,
     "genre": "角色扮演",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "",
+    "publisher": "CD PROJEKT RED",
+    "review_score_desc": "特别好评",
+    "total_reviews": 944524,
+    "total_positive": 816938,
+    "positive_ratio": 86.5,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "被dlc与动画拯救的本体 2077的本体说实话我是不满意的：缩水的主线、注水的支线、大量的马桶、刻板的色情暴力、低智的敌人AI、看似立体的地图构造实际上仅有外壳、看似有所选择的委托却仅仅是粗暴与千篇一律的冲突、看似繁多的流派BD最终强力且直观的只有几种、还要在找医生换义体与部分刷子内容上有所限制、等等等等。甚至在绝大多数时候把赛博朋克四个字换成看门狗都没有违和感，很大程度上让我想起了幽灵线东京或是消光这类缺乏内核的空洞沙盒。除去第一章最开始的具有复杂脚本树的高质量任务之外，竟然在最终任务前都找不到任何重大主线剧情差",
+        "votes_up": 247,
+        "playtime_hours": 114.6,
+        "timestamp_created": 1781179292
+      },
+      {
+        "voted_up": true,
+        "review": "---{ Graphics }--- ☑ You forget what reality is ☐ Beautiful ☐ Good ☐ Decent ☐ Bad ☐ Don‘t look too long at it ☐ MS-DOS ---{ Gameplay }--- ☑ Very good ☐ Good ☐ It's just gameplay ☐ Mehh ☐ Watch paint dry instead ☐ Just don't ---{ Audio }--- ☐ Eargasm ☑ Very goo",
+        "votes_up": 445,
+        "playtime_hours": 1021.6,
+        "timestamp_created": 1780358808
+      },
+      {
+        "voted_up": true,
+        "review": "[h1] AMAZING GAME [/h1] Cyberpunk is exactly my kind of game. FPS + Fast-Paced + Dialogue Choices + Looter-Shooter + RPG + Open World + Futuristic + Romance, it's the absolute ultimate combination. The gunplay is pretty solid, the story is engaging, and the di",
+        "votes_up": 60,
+        "playtime_hours": 176.1,
+        "timestamp_created": 1779459059
+      }
+    ],
+    "peak_24h": 65297,
+    "last_enriched_at": "2026-06-21T12:51:27Z"
   },
   "381210": {
     "appid": "381210",
@@ -207,35 +522,109 @@
       "玩家对战",
       "线上玩家对战",
       "合作",
-      "在线合作"
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "可选颜色",
+      "自定义音量控制"
     ],
-    "review_summary": "好评如潮",
+    "review_summary": "多半好评",
     "developer": "Behaviour Interactive Inc.",
     "release_date": "2016 年 6 月 14 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 125059,
+    "current_ccu": 86286,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "死亡并不是解脱。 10年恐惧相伴。10年的惊吓与刺激体验。10年的残暴献祭与惊险逃脱。 永久困于邪恶的幻境之中，即使死亡也无法逃脱，这是一场需要勇气和智慧的较量，四名意志坚定的逃生者在残忍对局中面对嗜血杀手。选择一方，进入多人非对称竞技游戏世界，获得最佳恐怖游戏体验。 逃生者们将以第三视角进行游戏，其优势在于对周围环境拥有更开阔的视野。而杀手则更着眼于眼前的猎物，他将以第一视角进行游戏。 逃生者的目标固然就是在不被杀手抓到的情况下安全地逃离杀戮场——但相信我，这件事做起来真的没有听上去这么容易，特别是周围环境瞬息万变。 游戏特色 • 要一起活下去吗… - 作为逃生者的你既可以和其他人合作，也可以选择单打独斗。当然你活下来的几率会根据是否与他人合作而改变。那么问题来了，你有信心以智慧取胜并且逃离他们的杀戮场吗？ • 我到底在哪？ - 每一个关卡的位置都由程序随机生成，这意味着你永远不知道是什么正在黑暗中等待着你。随机的重生点和环境的改变让你永远不会感觉到一丝的安全。 • 一场杀戮的盛宴 - 黎明杀机集合了各种恐怖元素，让地图上每一个角落都散发着恐怖的气息。作为杀手的你可以随心所欲地选择角色，从“形态可憎的杀人魔”到“无法洞悉的超自然实体”。熟悉你的杀戮场，精通每个杀手的特定技能，尽情地捕捉并献祭你的猎物吧。 • 更深层的战术 - 每个杀手和逃生者都拥有一套自己独立的进度体系和大量的可解锁物品，从而能够更深层的制定自己的战术和策略。经验、技能和对周围环境的认知将是你能否精准捕捉杀手动态并智胜他们的关键。 • 真实的玩家，真实的恐惧 - 随机生成的关卡和玩家对恐惧的真实反应为每场游戏都带来了意料之外的展开。你永远无法预料到接下来会发生什么。气氛、音乐加上令人不寒而栗的场景，带给你绝对的恐怖体验。如果有足够的时间，你甚至可以发现隐藏在迷雾背后的深层谜团。 警告：光敏性癫痫发作 - 请在游玩之前仔细阅读 極少數人可能會在接觸特定種類的閃光或燈光圖案時發生癲癇性發作或暈厥。這些人，甚至是未曾發生癲癇或癲癇發作的人，可能會在遊玩電玩時發生癲癇症狀或是癲癇發作。如果您或是您的親戚有癲癇病症，或是曾經發生過任何類別的癲癇發作，請在遊玩電玩之前先諮詢您的醫生。 若您或您的孩童發生任何以下症狀，請「立即停止」遊戲並諮詢醫生：暈眩、視線模糊、眼部或肌肉抽搐、不自主運動、失去意識、失去方向感或痙攣。家長應該注意或詢問孩童是否有以上症狀。 您可以透過採取以下預防措施來降低光敏感性癲癇發作的風險：坐在離螢幕較遠的地方、使用較小的螢幕、在燈光充足的房間遊玩、不在疲憊或疲勞的狀況下遊玩。",
+    "publisher": "Behaviour Interactive Inc.",
+    "review_score_desc": "多半好评",
+    "total_reviews": 907753,
+    "total_positive": 712701,
+    "positive_ratio": 78.5,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "这游戏几乎每天都在打，这游戏本身的设计和玩法值得一个好评，但玩到后期你会发现，游戏环境已经无药可救。我玩双边，本应是竞技娱乐，结果却充满戾气。 杀手方面，我只玩一个走地4.6的杀手，打过车队也碰过Twitch主播队。无论输赢，赛后聊天时常会是嘲讽、贬低甚至人身攻击。赢了被说守尸30等，输了被说菜就多练。更别说其他冷门杀手，体验只会更差。 人类单排方面，同样糟糕。经常看到队友给杀手发嘲讽消息，明明对面玩得正常甚至认真，却被羞辱。这种风气已经蔓延到整个社区。 关于外挂与举报，开挂的人不少，微调和一些我也不知道的挂，有些",
+        "votes_up": 328,
+        "playtime_hours": 1251.5,
+        "timestamp_created": 1780202129
+      },
+      {
+        "voted_up": true,
+        "review": "Its like being addicted to fetanyl but it doesnt kill you, so you keep consuming it until eventually you you go to rehab and end up resorting to league of legends. Its terminal",
+        "votes_up": 260,
+        "playtime_hours": 606.7,
+        "timestamp_created": 1781120242
+      },
+      {
+        "voted_up": false,
+        "review": "Dead by Daylight is truly one of the most welcoming gaming experiences ever created. The developers listen to the community so much that every patch feels like a personal attack designed to test your mental stability. The balance is incredible! Every killer is",
+        "votes_up": 953,
+        "playtime_hours": 1845.2,
+        "timestamp_created": 1780075451
+      }
+    ],
+    "peak_24h": 103175,
+    "last_enriched_at": "2026-06-21T12:51:29Z"
   },
   "550": {
     "appid": "550",
     "name": "Left 4 Dead 2",
-    "short_desc": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans acr",
+    "short_desc": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.",
     "tags": [
       "动作",
       "单人",
       "多人",
       "玩家对战",
       "线上玩家对战",
-      "合作"
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "支持字幕",
+      "Steam 创意工坊"
     ],
     "review_summary": "好评如潮",
     "developer": "Valve",
     "release_date": "2009 年 11 月 16 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 161590,
+    "current_ccu": 21303,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "让大家翘首以盼的的《求生之路 2》（L4D2）以僵尸大灾难为背景，是 2008 年最受欢迎且屡获殊荣的合作游戏《求生之路》的续集。 这个第一人称射击恐怖合作动作游戏将带领玩家和好友穿过美国南部的城市、沼泽和墓地，从萨凡纳到新奥尔良，沿途经过五个漫长的战役。 玩家将扮演四名新生还者中的一名，装备有种类繁多、数量惊人的经典及先进武器。 除了枪支之外，玩家还有机会用各种可制造屠杀的近战武器在感染者上泄愤，例如电锯、斧头、甚至是致命的平底锅。 玩家将在对抗三种恐怖无比、令人生畏的新特殊感染者（或者在对抗模式中扮演这些新的特殊感染者）时，考验这些武器的威力， 还会遭遇五种“不寻常”的普通感染者，包括可怕的泥人。 正是 AI 总监 2.0 将《求生之路》那疯狂无比、动作场面连续不断的游戏玩法推上了新的高度。 优化后的总监系统能程序化地改变沿途天气和玩家行走的路径，还可以根据玩家的表现调整敌人的数量、效果和音效。 《求生之路 2》保证每次游戏都会带来令人满意、充满独特挑战的体验，符合玩家各自的游戏风格。 来自《半衰期》、《传送门》、《军团要塞》和《反恐精英》制作者的下一代合作动作游戏。 超过 20 种新武器和物品，超过 10 种近战武器——斧头、电锯、平底锅、棒球棍——让玩家和僵尸亲密接触。 全新生还者。 全新故事。 全新对白。 五个辽阔的战役，可以在合作、对抗和生还者模式中进行。 全新多人游戏模式。 “不寻常”的普通感染者。 五个新战役的每一个都至少有一种该战役专属的“不寻常”普通感染者。 AI 总监 2.0：被称为“AI 总监”的先进技术，推进了《求生之路》独特的游戏玩法， 根据玩家的表现自定义敌人的数量、效果和音乐。 《求生之路 2》则以 AI 总监 2.0 为特点，扩展了总监系统的能力，可以自定义关卡布局、游戏世界内的物体、天气和照明来反映一天中的不同时间。 统计、排名和奖励系统促使玩家们合作游戏。",
+    "publisher": "Valve",
+    "review_score_desc": "好评如潮",
+    "total_reviews": 1038882,
+    "total_positive": 1013204,
+    "positive_ratio": 97.5,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "玩家素质很高 全世界最尊重萌新的游戏",
+        "votes_up": 37,
+        "playtime_hours": 1750.2,
+        "timestamp_created": 1780215048
+      },
+      {
+        "voted_up": true,
+        "review": "The OG friendslop. except it's actually fun. At least when you don't get votekicked for no reason by sweaty tryhards",
+        "votes_up": 44,
+        "playtime_hours": 100.7,
+        "timestamp_created": 1780021555
+      },
+      {
+        "voted_up": true,
+        "review": "玩这个游戏认识了非常多的好朋友，一看发现steam好友中有近百人有这个游戏。打完成就就有点少玩了（有些难度成就还是用mod完成的因为模式都没人玩了）。但是朋友们还在，偶尔可以玩玩别的游戏，小时候也看过实况主玩过这个（打了mc的mod僵尸看起来就比较和蔼了）但是那个时候还是很害怕就没怎么看了。这么多年了还是有这么多人玩，打折也很便宜的游戏。",
+        "votes_up": 22,
+        "playtime_hours": 194.4,
+        "timestamp_created": 1780638857
+      }
+    ],
+    "peak_24h": 37200,
+    "last_enriched_at": "2026-06-21T12:51:31Z"
   },
   "346110": {
     "appid": "346110",
@@ -250,20 +639,54 @@
       "单人",
       "多人",
       "合作",
-      "Steam 成就"
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 创意工坊",
+      "Steam 云"
     ],
-    "review_summary": "好评如潮",
-    "developer": "Studio Wildcard",
+    "review_summary": "特别好评",
+    "developer": "Studio Wildcard, Instinct Games, Efecto Studios, Virtual Basement LLC",
     "release_date": "2017 年 8 月 27 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 247292,
+    "current_ccu": 26165,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "孤身一人苏醒在空旷的海岸边，发现自己身处一个充满恐龙的神秘岛屿“ARK”，你身无寸缕，饥寒交迫，你必须学会打猎、获取资源，制作物品，种植庄稼，发展科技，建立庇护所，从而让你可以在这个世界中存活下去。同时，你也可以利用技巧杀死或者驯服、繁殖、骑乘那些生活在这片岛屿上的洪荒巨兽。你也可以与上百人建成部落，互相侵略，生存...以及逃离这片孤岛！ 驯服，训练，繁殖 & 在活生生的生态中骑乘恐龙 恐龙，生物，以及繁殖！ 游戏中提供了超过50种不同类别的原始生物可供玩家驯服。游戏采用了一套征服-保护的驯养机制，玩家需要先击晕恐龙来弱化并驯服他们，然后照顾他们直到恢复健康。一旦完成驯服，它将成为你最忠实的伙伴，你可以给他们下达命令，而他们也会根据你驯服和训练的方式的不同做出不同的反馈。宠物会不断升级和消耗食物，还可以运送物资和装备道具。游戏还提供了独具特色的繁殖系统，玩家可以择优选择宠物去培育最佳属性，也可以简单点，直接生养一个恐龙宝宝！你可以骑着翼龙飞跃雪山之巅，带领着迅猛龙群冲过危险密布的丛林，或者骑着霸王龙四处追捕落荒而逃的敌人！快来体验这个这个充满活力的实时生态圈吧，在捕食者与被捕食者的残酷等级阶层中找到属于你的位置。 食物，水源，温度及天气 食物和水是生存下去的必备要素。游戏中拥有许多不同种类的食物，不同食物也会有不同的营养价值（甚至还有人肉！）所有的行动都会消耗食物和水，长距离的旅行更是会持续性的消耗这些物品。携带物品的重量会影响你的行动速度，日夜转换和天气状况也会影响你周围的环境，，使你更加容易饥饿与口渴。制作衣服、建立庇护所并利用火去对抗当地恶劣、多变的环境，保护自己。 收割，建造房屋，绘制 伐木、采矿、采集各种物资，成为一代生产大师。利用你的双手、工作台和机床去制作越来越复杂和强力的装备。利用组装式的部件去建造你的大型基地，从茅草到木头到石头再到钢铁，各种材料随你选择。你还可以利用喷绘定制你的专属基地，放置可以写字的公告板宣誓你的领地。武器、衣服、护甲等也都可以被涂上不同颜色来显示你的个性和与众不同的品味。 种植，耕种，以及生长 通过从野外植物上采集种子，你可以将其种植在你的住处，浇灌并对其施肥（任何消耗卡路里而生成的粪便都可以使用，有的粪便还更高一等。。）你所种植的植物可以中出美味并稀有的水果，也可以使用来按照配方来制造补药。去开拓并寻找稀有并强大的种子吧！植物的茁壮成长也能使你不用暴力在方舟中也成一霸。 召唤最终生命体 你可以携带圣物去岛上特殊的召唤地点唤醒方舟中的神秘生物，这些神秘生物都有强大的攻击性，他们为游戏中最强大的部落和宠物提供了终极的成就和目标，一旦击杀他们，这些部落和宠物也将收获丰富的奖励。 部落系统 与你的朋友们一起创建一个部落，这样你所有所驯化的生物也都可以被你盟友所运用。你的部落同盟也可以通过你家中复活点进行复活。同时，将你的部落",
+    "publisher": "Studio Wildcard, Snail Games USA",
+    "review_score_desc": "特别好评",
+    "total_reviews": 770187,
+    "total_positive": 641782,
+    "positive_ratio": 83.3,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "世界上只有两种玩家 一种是玩儿方舟的 一种是没玩过方舟的",
+        "votes_up": 45,
+        "playtime_hours": 381.0,
+        "timestamp_created": 1779452934
+      },
+      {
+        "voted_up": true,
+        "review": "The Only Game Where You Can Get Bullied By A Dodo I bought this game thinking it would be a majestic, prehistoric adventure where I’d tame a majestic Tyrannosaurus Rex and ride it into the sunset. Instead, my first six hours consisted of spawning completely na",
+        "votes_up": 41,
+        "playtime_hours": 364.1,
+        "timestamp_created": 1780080766
+      },
+      {
+        "voted_up": true,
+        "review": "I sacrificed all my friends to tame a trex. I was so happy I finally got one. However, moments later he got ganked by an alpha raptor. I cried. I then recruited a team of 20, 20 feet long alligators to absolutely maul the alpha raptor. That revenge gave me mor",
+        "votes_up": 21,
+        "playtime_hours": 26.1,
+        "timestamp_created": 1779730579
+      }
+    ],
+    "peak_24h": 28254,
+    "last_enriched_at": "2026-06-21T12:51:33Z"
   },
   "359550": {
     "appid": "359550",
     "name": "彩虹六号：围攻",
-    "short_desc": "《彩虹六号®：围攻》是战术团队射击游戏中的典范，明智的策略和行动力是制胜关键。 免费体验快速对战、非排名战和双重战线游戏模式，同时解锁精选特勤干员。",
+    "short_desc": "《彩虹六号：围攻》是一款精英团队战术射击游戏，高超的策略和行动力是制胜关键。",
     "tags": [
       "动作",
       "免费开玩",
@@ -271,15 +694,51 @@
       "多人",
       "玩家对战",
       "线上玩家对战",
-      "合作"
+      "合作",
+      "在线合作",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "在手机上远程畅玩"
     ],
-    "review_summary": "好评如潮",
+    "review_summary": "特别好评",
     "developer": "Ubisoft Montreal",
     "release_date": "2015 年 12 月 1 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 200476,
+    "current_ccu": 52445,
     "genre": "动作",
-    "is_free": true
+    "is_free": true,
+    "detailed_desc": "《彩虹六号：围攻》是战术团队射击游戏中无可争议的典范，明智的策略和行动力是制胜关键。 免费体验快速对战和非排名战游戏模式，同时解锁精选特勤干员。 排名战对战列表、围攻杯、额外特勤干员和装饰物品等特定内容和功能需要付费解锁。 高风险5v5对战 进攻方VS防守方 攻防交替互换，针对特勤干员和地图调整战术。感受行动的紧张与刺激，充分运用强大的破坏工具和各式设备，用智慧和技巧压制对手，赢得每一局对战。 如果你加入防守方，就将四周环境变成坚不可摧的堡垒。加固墙壁，设置路障，布置陷阱，控制敌人的动向。利用监控工具收集情报，预判敌人的进攻路线。坚守阵地，针对敌方的战术灵活应变，以技巧取胜。 如果你加入进攻方，则要操控观测无人机侦察敌方位置和炸弹点情报。与团队通力合作，突破重重防线，巧妙避开陷阱，出其不意地开辟突破口。通过垂直突袭，从上方或下方攻其不备，或是绳降突入窗户，发起英勇进攻。制定周密的进攻计划，果断执行，化解一切危机。 破坏工具 破坏不仅是制造混乱，更是通往胜利的关键武器。巧妙利用周围环境，将厚重的墙壁变成通向机遇的窗口。运用最尖端的技术追踪敌方动向，打破墙壁开拓视野，操控环境，牢牢掌握战术优势。 从新兵到精英 这趟充实的入门之旅专为新玩家量身打造，设有全新的等级路径，帮助你循序渐进地掌握基础操作、提升技巧、建立自信，让你以最佳状态投入紧张刺激的实战。 持续扩展 每个赛季都带来重大更新，新增内容和功能，为战术和玩法注入新活力。 高度竞技性 加入超过8,000万玩家的庞大在线社区。观看顶级职业战队在久负盛名的《彩虹六号：围攻》电竞赛事中展开巅峰对决。 免费进入游戏，部分内容和功能（包括竞技游戏模式、特勤干员和装饰物品）需要付费解锁。",
+    "publisher": "Ubisoft",
+    "review_score_desc": "特别好评",
+    "total_reviews": 1524497,
+    "total_positive": 1255349,
+    "positive_ratio": 82.3,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "The overall experience is equal to that of sticking your fork in a water filled outlet and then having to eat a crockpot meal. Every teammate i get was directly shipped from the make a wish foundation. Every time I play this game I further understand why OJ be",
+        "votes_up": 97,
+        "playtime_hours": 91.5,
+        "timestamp_created": 1780465009
+      },
+      {
+        "voted_up": true,
+        "review": "I love this game the anti cheat is amazing I love playing ranked because the players are so good they can see me through the wall but of course their not cheating cause how could they be cheating there is an anti cheat. Fun game!",
+        "votes_up": 58,
+        "playtime_hours": 530.6,
+        "timestamp_created": 1780260594
+      },
+      {
+        "voted_up": false,
+        "review": "更新完游戏都打不开，育碧你无敌了",
+        "votes_up": 40,
+        "playtime_hours": 3401.9,
+        "timestamp_created": 1780472670
+      }
+    ],
+    "peak_24h": 71210,
+    "last_enriched_at": "2026-06-21T12:51:35Z"
   },
   "440": {
     "appid": "440",
@@ -292,15 +751,51 @@
       "跨平台多人",
       "Steam 成就",
       "Steam 集换式卡牌",
-      "支持字幕"
+      "支持字幕",
+      "Steam 创意工坊",
+      "应用内购买",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制"
     ],
-    "review_summary": "多列好评",
+    "review_summary": "特别好评",
     "developer": "Valve",
     "release_date": "2007 年 10 月 10 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 253225,
+    "current_ccu": 50583,
     "genre": "动作",
-    "is_free": true
+    "is_free": true,
+    "detailed_desc": "“最有趣的在线游戏” - PC Gamer 现已免费！ 没有任何限制！ 想玩多少玩多少，想玩多久玩多久！ 有史以来评价最高的免费游戏！ 《军团要塞 2》是有史以来最受欢迎的在线动作游戏之一，游戏不断提供免费更新，带来新的游戏模式、地图、装备，当然还有最重要的——帽子。 九个兵种性格各异，特色鲜明，各自具备独特的战术技能，适合不同水平的玩家。 还是《军团要塞 2》新手吗？ 不用担心！ 无论您的风格与经验水平如何，总有一个角色适合您。 详尽的训练和离线练习模式能助您打磨战斗技巧，然后随心畅玩《军团要塞 2》众多的游戏模式，其中包括夺旗模式、控制点模式、推车模式、竞技场模式、山丘之王模式，等等等等。 创建您自己的角色！ 游戏有数以百计的武器、帽子及其他物品可供收集、合成、购买和交易。 您可以根据自己的游戏风格和个人品味来调整自己最喜欢的兵种。 不花钱也能取得比赛的胜利——曼恩公司商店里的几乎所有物品都能在游戏中得到。",
+    "publisher": "Valve",
+    "review_score_desc": "特别好评",
+    "total_reviews": 1237704,
+    "total_positive": 1125855,
+    "positive_ratio": 91.0,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "Timeless masterpiece please take my children and third testicle.",
+        "votes_up": 77,
+        "playtime_hours": 3152.9,
+        "timestamp_created": 1780436170
+      },
+      {
+        "voted_up": false,
+        "review": "Team Fortress 2 is and will always be my most favorite game, the one game I can keep playing endlessly and have all kinds of fun with. However, the newbie experience is absolutely horrendous and I cannot recommend it to new players until Valve finally does som",
+        "votes_up": 148,
+        "playtime_hours": 4131.0,
+        "timestamp_created": 1780515590
+      },
+      {
+        "voted_up": false,
+        "review": "游戏本身是好游戏，但是不会再有什么大更新了。而且获取难度太低导致开挂成本也很低，免费挂都能畅通无阻，也没有监管机制。建议大家把更多时间放在生活和新游戏上吧。",
+        "votes_up": 23,
+        "playtime_hours": 95.0,
+        "timestamp_created": 1779524882
+      }
+    ],
+    "peak_24h": 55927,
+    "last_enriched_at": "2026-06-21T12:51:37Z"
   },
   "1172470": {
     "appid": "1172470",
@@ -314,15 +809,50 @@
       "玩家对战",
       "线上玩家对战",
       "合作",
-      "在线合作"
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "应用内购买"
     ],
-    "review_summary": "多半好评",
+    "review_summary": "褒贬不一",
     "developer": "Respawn",
     "release_date": "2020 年 11 月 4 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 624473,
+    "current_ccu": 160357,
     "genre": "动作",
-    "is_free": true
+    "is_free": true,
+    "detailed_desc": "在《Apex Legends》这款免费*英雄射击游戏中脱颖而出，掌控角色，征服群雄，集结技艺超群的强大传奇角色，组队在边境之地为名利而战。 掌控丰富的传奇角色群、深度战术小队玩法以及大胆革新的元素，获得前所未有的新一代大逃杀竞技射击游戏体验——在这崎岖的世界，一切皆有可能。欢迎来到新一代英雄射击游戏。 主要特色： 本游戏含非必要的虚拟货币购买，用于获得游戏内虚拟物品，其中包括一些随机的游戏内虚拟物品。",
+    "publisher": "Electronic Arts",
+    "review_score_desc": "褒贬不一",
+    "total_reviews": 1054009,
+    "total_positive": 713385,
+    "positive_ratio": 67.7,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "Apex Legends is the only game where: - you loot for 20 minutes - become emotionally attached to a purple shield - and then get deleted in 0.3 seconds by a bald Wraith with 40,000 kills and no social life. My random teammates move like NPCs from a mobile game: ",
+        "votes_up": 183,
+        "playtime_hours": 2.9,
+        "timestamp_created": 1779718819
+      },
+      {
+        "voted_up": true,
+        "review": "兄弟这游戏打起来太几把爽了，但是你这女角色建模一个个长得像史莱克是什么意思",
+        "votes_up": 63,
+        "playtime_hours": 32.5,
+        "timestamp_created": 1779862112
+      },
+      {
+        "voted_up": false,
+        "review": "Not a new-player-friendly game at all. It puts me, someone who still doesn’t even know which weapons are good or bad, against 20k-hour players like “GODDESTROYER2000” in the same match. The game itself is really fun, but it’s definitely not friendly to new pla",
+        "votes_up": 123,
+        "playtime_hours": 2.5,
+        "timestamp_created": 1779783745
+      }
+    ],
+    "peak_24h": 196203,
+    "last_enriched_at": "2026-06-21T12:51:39Z"
   },
   "252950": {
     "appid": "252950",
@@ -338,10 +868,39 @@
     "review_summary": "特别好评",
     "developer": "Psyonix",
     "release_date": "2015 年 7 月 7 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 146902,
+    "current_ccu": 14956,
     "genre": "运动",
-    "is_free": true
+    "is_free": true,
+    "review_score_desc": "特别好评",
+    "total_reviews": 579445,
+    "total_positive": 508070,
+    "positive_ratio": 87.7,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "Thanks for removing support for linux and mac Thanks for gatekeeping rocket league from steam Thanks for shutting down the support of workshop maps Thanks for removing the abillity to add a profile picture in the game even though pfp frames exist in the game T",
+        "votes_up": 181,
+        "playtime_hours": 955.6,
+        "timestamp_created": 1780999145
+      },
+      {
+        "voted_up": true,
+        "review": "I've been playing this game since 2015. I cannot believe I've spent 11 years on a single game. With every single year the skill ceiling rose and so did the toxicity. I've met some of the most wholesome down to earth people as well as some of the most toxic peo",
+        "votes_up": 16,
+        "playtime_hours": 2188.8,
+        "timestamp_created": 1779823122
+      },
+      {
+        "voted_up": false,
+        "review": "Thanks for removing support for linux and mac Thanks for gatekeeping rocket league from steam Thanks for shutting down the support of workshop maps Thanks for removing the abillity to add a profile picture in the game even though pfp frames exist in the game T",
+        "votes_up": 12,
+        "playtime_hours": 2877.2,
+        "timestamp_created": 1781717703
+      }
+    ],
+    "peak_24h": 25521,
+    "last_enriched_at": "2026-06-21T12:51:42Z"
   },
   "1599340": {
     "appid": "1599340",
@@ -357,10 +916,39 @@
     "review_summary": "多半好评",
     "developer": "Smilegate RPG",
     "release_date": "2022 年 2 月 11 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 1324761,
+    "current_ccu": 6603,
     "genre": "角色扮演",
-    "is_free": true
+    "is_free": true,
+    "review_score_desc": "多半好评",
+    "total_reviews": 203195,
+    "total_positive": 143141,
+    "positive_ratio": 70.4,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "Unfortunately cannot recommend in the current state of the game. The kr devs took 1 step forward and 20 steps backwards. Unethical business practice with the release of t4(yikessss), events that are supposed to be for \"returning or new players\" monetised to th",
+        "votes_up": 33,
+        "playtime_hours": 7026.9,
+        "timestamp_created": 1779809251
+      },
+      {
+        "voted_up": false,
+        "review": "Amazing raids, beautiful combat, but ultimately a game that asks for more than it's worth. Lost Ark has the best raids I've ever experienced in an MMO. The boss fights are spectacular, the classes are fun and distinct, and the animations are some of the best i",
+        "votes_up": 10,
+        "playtime_hours": 1307.8,
+        "timestamp_created": 1780401429
+      },
+      {
+        "voted_up": false,
+        "review": "Best combat mechanics, best visuals, amazing art, pretty good story. Absolute disgrace upgrade systems and mechanics. Straight up illegal in game-store. TLDR play the game once for the story until you get paywalled and then uninstall it.",
+        "votes_up": 7,
+        "playtime_hours": 1289.8,
+        "timestamp_created": 1781660732
+      }
+    ],
+    "peak_24h": 8089,
+    "last_enriched_at": "2026-06-21T12:51:45Z"
   },
   "620": {
     "appid": "620",
@@ -372,15 +960,52 @@
       "单人",
       "多人",
       "合作",
-      "在线合作"
+      "在线合作",
+      "同屏/分屏合作",
+      "同屏/分屏",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "支持字幕"
     ],
-    "review_summary": "特别好评",
+    "review_summary": "好评如潮",
     "developer": "Valve",
     "release_date": "2011 年 4 月 18 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 14984,
+    "current_ccu": 1655,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "Portal 2 用创新的游戏内容、故事以及最初 Portal 那赢得超过 70 项以上业界奖项般的配乐打造出另一个大奖赢家的继承者。 Portal 2 的单人游戏部分带来充满活力的新角色、一大堆新鲜的解谜元素，以及更大、更加曲折的试验室。玩家将可以于前所未见的光圈科技实验室中探索，并且与在原游戏中引导你，偶尔想要把你杀掉的电脑陪伴者 GLaDOS 重逢。 本游戏的双人合作模式将有其独立的战役内容，包含独特的故事、试验室，以及两名新的玩家角色。这项新的游戏模式让玩家必须重新思考所有他们在 Portal 中所了解到的事实。想要过关不只要一起行动，还必须一起思考。 游戏特色 丰富的单人游戏： 次世代的游戏内容与令人注目的故事剧情。 完整双人合作模式： 多人连线内容具有其额外的故事、角色，以及游戏内容。 高级物理系统： 创造出前所未见的新领域，带来更加有趣的挑战，规模更大但不会更难的游戏。 原创音乐。 大作续集： 全球超过 30 个媒体杂志将初代 Portal 选为 2007 年度游戏。 编辑工具： Portal 2 编辑工具将会包含在内。",
+    "publisher": "Valve",
+    "review_score_desc": "好评如潮",
+    "total_reviews": 460999,
+    "total_positive": 455032,
+    "positive_ratio": 98.7,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "[h1] PERFECTION EXPANDED [/h1] [b][i] Taking everything that made the original revolutionary and expanding it into a grand, cinematic masterpiece. Portal 2 elevates the puzzle design with brilliant new mechanics like propulsion and repulsion gels, while diving",
+        "votes_up": 27,
+        "playtime_hours": 26.0,
+        "timestamp_created": 1779654349
+      },
+      {
+        "voted_up": true,
+        "review": "I had aperture sciences logo tattooed to my shoulder if that tells you anything about how much i love this game.",
+        "votes_up": 15,
+        "playtime_hours": 28.7,
+        "timestamp_created": 1780518158
+      },
+      {
+        "voted_up": true,
+        "review": "只能说不愧是经典，神作无需多言，每个人都应该至少玩一次传送门",
+        "votes_up": 9,
+        "playtime_hours": 7.7,
+        "timestamp_created": 1779900736
+      }
+    ],
+    "peak_24h": 2184,
+    "last_enriched_at": "2026-06-21T12:51:47Z"
   },
   "4000": {
     "appid": "4000",
@@ -393,15 +1018,51 @@
       "单人",
       "多人",
       "玩家对战",
-      "线上玩家对战"
+      "线上玩家对战",
+      "局域网玩家对战",
+      "合作",
+      "在线合作",
+      "局域网合作",
+      "跨平台多人"
     ],
     "review_summary": "好评如潮",
     "developer": "Facepunch Studios",
     "release_date": "2006 年 11 月 29 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 73750,
+    "current_ccu": 25946,
     "genre": "休闲",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "Garry's Mod 是一个物理实验场。 与普通游戏不同，这款游戏并没有预定的目标或目的。 我们给您工具，您决定游戏内容。 您可以调出各种对象互相组合，创造新的道具，不论汽车、火箭、投石车还是连名字都没有的机器，一切都由您决定。 如果您对设计工程并不在行，也别担心！ 您还能把许多不同角色放在好笑的地方。",
+    "publisher": "Valve",
+    "review_score_desc": "好评如潮",
+    "total_reviews": 1243612,
+    "total_positive": 1204587,
+    "positive_ratio": 96.9,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "I started playing Garry's Mod last year, and it became one of the best games I have ever played. It changed my life in a way I did not expect. The reason I started playing it was because my dad banned me from playing Roblox because of my grades. At first, I wa",
+        "votes_up": 131,
+        "playtime_hours": 760.3,
+        "timestamp_created": 1780877717
+      },
+      {
+        "voted_up": true,
+        "review": "盖瑞模组：跨越二十载的沙盒传奇 啊，盖瑞老鼠（Gay's mod lol)，一款至今发布近二十余年的老游戏，而它在我的童年占据了相当的部分以及那些依稀的记忆 而直至24年10月的一天，我揣着对于童年回忆的欣慰与激动，入手了garry's mod 可是，它本质上并没有让我感到惊艳，原版枯燥的内容，老旧的lua语言，渲染也透露出一股怀旧，过时的风格，还有那时时刻刻在笼罩着我的阴森的氛围（它的引擎是基于前代1998年半衰期1的Goldsrc而划时代升级的，Goldsrc是为半衰期这种初代恐怖氛围的游戏量身定做） *神的卑",
+        "votes_up": 56,
+        "playtime_hours": 23.9,
+        "timestamp_created": 1779499808
+      },
+      {
+        "voted_up": true,
+        "review": "小时候经常看各大主播玩gmod，现在有能力买正版了，但是以前各大主播的mod没找到，缺了那个味道",
+        "votes_up": 23,
+        "playtime_hours": 109.0,
+        "timestamp_created": 1780313566
+      }
+    ],
+    "peak_24h": 33747,
+    "last_enriched_at": "2026-06-21T12:51:49Z"
   },
   "275850": {
     "appid": "275850",
@@ -413,15 +1074,52 @@
       "单人",
       "多人",
       "玩家对战",
-      "线上玩家对战"
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "定位控制器支持"
     ],
     "review_summary": "特别好评",
     "developer": "Hello Games",
     "release_date": "2016 年 8 月 12 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 212321,
+    "current_ccu": 12244,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "《无人深空》从经典科幻小说中汲取灵感，囊括了大众喜爱的冒险和天马行空的幻想元素，呈现给玩家一个充满独特行星和生命形式的星系。 在危机重重的《无人深空》中，每个太阳都有生机勃勃的行星绕其运转，它们身上蕴藏的秘密都等待着你亲自去发掘。从太空深处飞往行星地表，一路畅通无阻，毫无限制。在这个按程序生成的无限宇宙中，你会发现大家从未见过的领域和生物——而且再无机会遇见。 在星系的中心，一股神秘的力量无时无刻不在吸引着你前往宇宙探索真正的奥义。 然而，宇宙并非一片祥和，你会面临敌对的外星生物，它们早已适应了寄居星球的极端环境，它们的异能力量和高度进化的生理特征使它们成为了不可忽视的威胁。 与此同时，令探险者们闻风丧胆的太空海盗也在星宇间横行，掠夺一切他们能够找到的财富。在这个过程中，你将明白死亡亦有代价。 要想在这个宇宙中立足， 你需要不断升级你的飞船、武器和装备，在提升防御与加强攻击间反复权衡 。你的抉择既会成为影响你生死存亡的关键因素，也会为你的每趟旅程带来翻天覆地的变化。 在《无人深空》中，你的航行由你做主。 你可以选择成为一名 战士 ，以侵略弱者为生，掠夺他们的财富，或掠夺海盗的战利品。掌握主动权，占据优势，提升飞船的速度，强化搭载的武器。 还是会选择成为一名 商人 ? 在这个被遗忘的世界里找到丰富的资源，利用它们获取高额利润。以此投资更多的货仓空间，换取丰厚的回报。 亦或是成为一位 探险家 ？以超越已知领域，去发掘那些鲜为人知的地带和事物为目标。升级你的飞船引擎，飞向更遥远的国度；增强你的宇宙服性能，以此在稍有大意就会丧命的极端环境中艰难生存。 这是一个有血有肉，生生不息的世界。 贸易航队在星际间穿梭，各派势力争夺地盘，隐藏在暗处的海盗们正觊觎着财富，企图在秩序混乱的地带趁火打劫，星际战警们也正虎视眈眈地注视着他们的一举一动，伺机将他们一网打尽。 在这个复杂的星系之中，除了鲜活的NPC，还有素未谋面的其他玩家与你一同生活其中。 你可以选择在已知太空的地图中分享自己的发现，以此吸引其他玩家参与互动，享受太空交际的奇妙乐趣。",
+    "publisher": "Hello Games",
+    "review_score_desc": "特别好评",
+    "total_reviews": 410103,
+    "total_positive": 348235,
+    "positive_ratio": 84.9,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "I played... my son got old enough to sit with me and explore... then old enough to take the controller and go on his own adventures. Incredible game, we leave it on. Literally a lifetime worth of content. Get in the mix with a battle if youre feeling frisky, e",
+        "votes_up": 661,
+        "playtime_hours": 1196.0,
+        "timestamp_created": 1779929920
+      },
+      {
+        "voted_up": true,
+        "review": "这个厂商是真的良心啊，快10年了还在当网游一样坚持更新，可否出个付款码让咱玩家捐点钱，不然真良心过不去",
+        "votes_up": 137,
+        "playtime_hours": 102.8,
+        "timestamp_created": 1779957917
+      },
+      {
+        "voted_up": true,
+        "review": "---{ Graphics }--- ☐ You forget what reality is ☐ Beautiful ☑ Good ☐ Decent ☐ Bad ☐ Don‘t look too long at it ☐ MS-DOS ---{ Gameplay }--- ☐ Very good ☑ Good ☐ It's just gameplay ☐ Mehh ☐ Watch paint dry instead ☐ Just don't ---{ Audio }--- ☐ Eargasm ☑ Very goo",
+        "votes_up": 88,
+        "playtime_hours": 25.5,
+        "timestamp_created": 1780174895
+      }
+    ],
+    "peak_24h": 14619,
+    "last_enriched_at": "2026-06-21T12:51:51Z"
   },
   "292030": {
     "appid": "292030",
@@ -432,15 +1130,53 @@
       "单人",
       "Steam 成就",
       "Steam 集换式卡牌",
-      "Steam 创意工坊"
+      "Steam 创意工坊",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "随时保存"
     ],
     "review_summary": "好评如潮",
     "developer": "CD PROJEKT RED",
     "release_date": "2015 年 5 月 18 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 103329,
+    "current_ccu": 29405,
     "genre": "角色扮演",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "",
+    "publisher": "CD PROJEKT RED",
+    "review_score_desc": "好评如潮",
+    "total_reviews": 872716,
+    "total_positive": 844520,
+    "positive_ratio": 96.8,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "DLC announced 11 years after release, my favourite game keeps getting better",
+        "votes_up": 394,
+        "playtime_hours": 102.7,
+        "timestamp_created": 1779877060
+      },
+      {
+        "voted_up": true,
+        "review": "I thought I was starting a game about killing monsters. Instead, I found a story about family, love, friendship, loss, and the people we would cross the world for. Geralt's journey to find Ciri is one of the most memorable stories I've experienced in gaming. B",
+        "votes_up": 253,
+        "playtime_hours": 109.4,
+        "timestamp_created": 1781098965
+      },
+      {
+        "voted_up": true,
+        "review": "For those returning to the game because of the new DLC, remember, silver is for monsters and steel is for fools.",
+        "votes_up": 58,
+        "playtime_hours": 261.6,
+        "timestamp_created": 1779885194
+      }
+    ],
+    "peak_24h": 29405,
+    "last_enriched_at": "2026-06-21T12:51:53Z"
   },
   "570940": {
     "appid": "570940",
@@ -451,15 +1187,50 @@
       "单人",
       "多人",
       "Steam 成就",
-      "完全支持控制器"
+      "完全支持控制器",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "家庭共享"
     ],
-    "review_summary": "多半好评",
-    "developer": "QLOC",
+    "review_summary": "特别好评",
+    "developer": "QLOC, FromSoftware, Inc.",
     "release_date": "2018 年 5 月 23 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 24505,
+    "current_ccu": 2912,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "有一天，燃起了第一团火。 重新体验话题性、代表性十足的经典游戏。 经过画质提升，将以惊艳的60fps形式呈现，做好重返罗德兰的准备吧。 黑暗灵魂 Remastered包含游戏本体，以及DLC《Artorias of the Abyss》。 游戏特色： - 黑暗与深沉的世界观 - 每一次结束都是一个新开始 - 游戏丰富性与各种可能性 - 体验学习、克服、获得成就感的连锁效应 - 可多人联机游玩（人数最多可至6人）",
+    "publisher": "FromSoftware, Inc., Bandai Namco Entertainment",
+    "review_score_desc": "特别好评",
+    "total_reviews": 151944,
+    "total_positive": 140454,
+    "positive_ratio": 92.4,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "睡意朦胧的星辰 阻挡不了我行程 多年飘泊日夜餐风露宿 为了理想我宁愿忍受寂寞 饮尽那份孤独 抖落一地的尘土 踏上遥远的路途 满怀痴情追求我的梦想 三百六十五日年年的度过 过一日 行一程 三百六十五里路呦 越过春夏秋冬 三百六十五里路呦 岂能让它虚度 那年万丈的雄心 从来没有消失过 即使时光渐去依然执着 自从离乡背井已过了多少 三百六十五日 三百六十五里路呦 从故乡到异乡 三百六十五里路呦 从少年到白头 有多少三百六十五里路呦 越过春夏秋冬 三百六十五里路呦 岂能让他虚度 多少的 三百六十五里路呦 从故乡到异乡 三百",
+        "votes_up": 68,
+        "playtime_hours": 27.6,
+        "timestamp_created": 1780289101
+      },
+      {
+        "voted_up": true,
+        "review": "Everytime Im depressed I just 100% this game again. It doesn't fix my wish to kms, but it makes things better, thank you Dark Souls",
+        "votes_up": 44,
+        "playtime_hours": 205.5,
+        "timestamp_created": 1781126058
+      },
+      {
+        "voted_up": true,
+        "review": "A timeless masterpiece To those interested in souls games, this is the purest souls experience Playing this game evokes an indescribable feeling recreated by no other title",
+        "votes_up": 36,
+        "playtime_hours": 79.9,
+        "timestamp_created": 1780320442
+      }
+    ],
+    "peak_24h": 3428,
+    "last_enriched_at": "2026-06-21T12:51:55Z"
   },
   "945360": {
     "appid": "945360",
@@ -470,15 +1241,53 @@
       "多人",
       "玩家对战",
       "线上玩家对战",
-      "局域网玩家对战"
+      "局域网玩家对战",
+      "合作",
+      "在线合作",
+      "局域网合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌"
     ],
-    "review_summary": "好评如潮",
+    "review_summary": "特别好评",
     "developer": "Innersloth",
     "release_date": "2018 年 11 月 16 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 438524,
+    "current_ccu": 6814,
     "genre": "休闲",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "欢迎各位新乘员！ 快跳入《Among Us》最新的地图“Airship”中吧！在这艘飞船上同心协力，实行最缜密巧妙的计划... 至于是以船员还是伪装者的身分行动，那就是另一回事了。 本次免费更新包含： 第 4 张地图，也是当前最大的地图 抛光宝石、清垃圾 (真好玩) 等全新任务 能够选择开局时所在的房间 可探索 (或死于其中) 的全新区域 改善梯子与移动平台的移动能力 全新免费帽子，包含心型别针、愤怒眉毛、独角兽头部、橡胶手套等内容！ 您可以在线或利用本地 WiFi 与 4-15 名玩家一起游玩，努力整备飞船为出发做准备，但过程中要小心，组员中至少会有一名玩家会被随机指派为想要杀死大家的伪装者！ 本游戏是以派对同乐为目的打造而成，因此推荐您与好友们通过局域网面机，或在线上配合语音聊天一起游玩。可在 Android、iOS 和电脑间跨平台畅游。 完成任务让船只准备好启程或是驱逐所有伪装者来获得胜利。 快速应对以修复伪装者造成的破坏。 查看管理室地图和保安摄像机以密切关注其他船员的动态。 发现尸体时立即报告，以开始讨论谁可能是伪装者。 召开紧急会议来针对可疑的行动进行讨论。 投票驱逐推测是伪装者的人。 杀死船员并嫁祸给旁观者。 假装进行任务以融入船员之中。 利用通风口在船上隐密地快速移动。 搞破坏来制造混乱并分化船员。 关门以困住受害者并悄悄将其杀害。 功能 客制化：自行选择颜色和帽子。 多样化的游戏选项：增加更多伪装者、更多任务与其他更多内容！ 利用主持列表来快速寻找在线游戏！ 游戏内文字聊天。 丰富的 Discord 整合项目。 在电脑、Android 和 iOS 上享受跨平台游玩的乐趣！",
+    "publisher": "Innersloth",
+    "review_score_desc": "特别好评",
+    "total_reviews": 734377,
+    "total_positive": 675393,
+    "positive_ratio": 92.0,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "Amazing game. Just say a random crewmember's name and everyone will vote him without asking why. 10/10 game.",
+        "votes_up": 37,
+        "playtime_hours": 10.3,
+        "timestamp_created": 1781122996
+      },
+      {
+        "voted_up": true,
+        "review": "This game is a CLASSIC. Sometimes I play it by myself in public lobbies just to stimulate my mind and body. I am not the best liar in this game but I am working on it. Sometimes I make my friends mad at this game but that is just the way of life. Sometimes I i",
+        "votes_up": 12,
+        "playtime_hours": 6.3,
+        "timestamp_created": 1780121251
+      },
+      {
+        "voted_up": true,
+        "review": "Among Us is one of the most engaging and memorable multiplayer games I have ever played. Despite its simple appearance, the game offers a surprisingly deep social experience that encourages teamwork, communication, critical thinking, and strategy. One of the g",
+        "votes_up": 12,
+        "playtime_hours": 41.0,
+        "timestamp_created": 1780111114
+      }
+    ],
+    "peak_24h": 13158,
+    "last_enriched_at": "2026-06-21T12:51:57Z"
   },
   "1172620": {
     "appid": "1172620",
@@ -490,15 +1299,52 @@
       "多人",
       "玩家对战",
       "线上玩家对战",
-      "合作"
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "部分支持控制器"
     ],
     "review_summary": "特别好评",
     "developer": "Rare Ltd",
     "release_date": "2020 年 6 月 3 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 66632,
+    "current_ccu": 7209,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "Sea of Thieves 提供纯正的海盗体验，例如航行、战斗、探索、劫掠等，无论是感受海盗生涯还是成为传奇海盗，你所需的一切都能在此找到。这里没有预设的职责，你可以任意选择与这个世界或其他玩家的交互方式。 你可以组成船队出海，也可以独自一人扬帆起航，无论如何，你都一定会在这个共享世界中遭遇其他船队。但他们会是朋友还是敌人呢？你又会怎么应对呢？ 开放世界 在这片遍布天然小岛和水下王国的开放世界中尽情探索。你可以接受任务寻找失落的战利品，可以与贸易公司建立关系，也可以与幻影、海洋爬行者、巨牙鲨、强大海怪等各式各样的敌人交战。当然，你也可以试试钓鱼，或是为你埋藏的宝藏绘制地图，又或是完成数百种可选目标以及支线任务！ 不断进化 每隔三个月，包含新游戏内容的新赛季就会推出，再加上定期举办的游戏内活动，让 Sea of Thieves 这款服务型游戏不断成长、进化。定期回来看看，了解近期游戏新增了哪些免费内容，并尝试挑战每个赛季的 100 个名誉等级，赚取特殊奖励吧。 Become Legend 在成为传奇海盗的过程中，你将累积战利品、建立声望、并用你亲手赚取的奖励来塑造独特的个人风格。冒险家、探索者、征服者，你会谱写怎样的传奇？ Sea of Thieves: Premium Edition 2026 Premium Edition 包含： 所有 Base Edition 和 Deluxe Edition 内容 红色北极星猫、服装套装、信号旗、船身、船头雕像、船帆、大炮、大炮火焰、绞盘、舵轮、收藏家的船头雕像、收藏家的船帆和船徽 1000 枚古代钱币，可在海盗百货中使用 Sea of Thieves: Deluxe Edition 2026 Deluxe Edition 包含： 所有 Base Edition 内容 至高者帽子、裙装、夹克、靴子、腰带、裤子和手套 红色北极星手枪、火枪、鹰眼枪、弯刀、双管手枪、投掷刀、抓钩枪和吹管 10000 黄金，可在贸易站中使用 Sea of Thieves 2026 Base Edition 包含： 完整游戏 额外数字奖励*内含：Sea of Thieves Original Soundtrack – 2026 Edition、Sea of Thieves: Athena's Fortune 有声书和 The Rough Guide to Sea of Thieves 电子书 * 可通过 Sea of Thieves /bonuses（网站需要登录）或 Steam 下载。",
+    "publisher": "Xbox Game Studios",
+    "review_score_desc": "特别好评",
+    "total_reviews": 370191,
+    "total_positive": 328329,
+    "positive_ratio": 88.7,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "Spent a lot of hours enjoying this game but it's like the dev team is just bent on making the game worse. Content updates are focused on squeezing as much money out of players as possible, often at the cost of punishing long-time players. Modifying items that ",
+        "votes_up": 75,
+        "playtime_hours": 678.1,
+        "timestamp_created": 1780772957
+      },
+      {
+        "voted_up": true,
+        "review": "《盗贼之海》是 Rare 做过最大胆也最拧巴的东西。它花了七年时间，把一个首发时被骂\"除了水什么都没有\"的游戏，养成了一个活着的世界。活着的代价是，它至今仍是市面上最挑人的多人游戏——你很可能在头两个小时就删了它，也可能一不小心玩了三千个小时。两种人我都见过，而且完全理解。 海：唯一的、不可复制的技术成就 先谈最没有争议的部分：水。 《盗贼之海》的海水渲染是游戏工业的孤例。它不是一张会动的贴图，而是一套物理模拟系统。浪有涌、有峰、有溃，船浮在水面上不是\"播放颠簸动画\"，而是基于船体几何与水面交点的实时解算。风暴来的",
+        "votes_up": 38,
+        "playtime_hours": 141.3,
+        "timestamp_created": 1780564438
+      },
+      {
+        "voted_up": false,
+        "review": "这游戏不开私海就去死把真的，单刷要塞被人截胡两次，能玩下去的都是神人了",
+        "votes_up": 29,
+        "playtime_hours": 118.6,
+        "timestamp_created": 1779805729
+      }
+    ],
+    "peak_24h": 9855,
+    "last_enriched_at": "2026-06-21T12:52:00Z"
   },
   "1203220": {
     "appid": "1203220",
@@ -512,15 +1358,50 @@
       "多人",
       "玩家对战",
       "线上玩家对战",
-      "Steam 成就"
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "部分支持控制器",
+      "可用 HDR"
     ],
-    "review_summary": "特别好评",
+    "review_summary": "多半好评",
     "developer": "24 Entertainment",
     "release_date": "2021 年 8 月 11 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 385770,
+    "current_ccu": 55886,
     "genre": "动作",
-    "is_free": true
+    "is_free": true,
+    "detailed_desc": "独创战斗系统、全交互地图、远近武器爽快交锋……在瞬息万变的60人战场中活到最后，畅享高自由度的无拘战斗！ 利用飞索，翻飞于树林与屋瓴之间；埋伏檐上，给路过的敌人一个出其不意的惊喜。去大胆探索这神秘而危险的战场！ 选取风格各异的英雄，定制独特的外观风格，加上自由搭配的不同技能、招式各不相同的武器，去书写独属于你的武学宗师传奇！ 游历美妙绝伦却又危机四伏的聚窟洲和火罗国，在壮美的自然风景与饱含文化底蕴的人文景观中作战。",
+    "publisher": "NetEase Games ",
+    "review_score_desc": "多半好评",
+    "total_reviews": 300436,
+    "total_positive": 220529,
+    "positive_ratio": 73.4,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "I’ve played a lot of battle royale games over the years, but honestly, Naraka: Bladepoint feels like something completely different in the best possible way. Most BR games focus only on guns and positioning, but Naraka mixes fast-paced movement, intense melee ",
+        "votes_up": 1110,
+        "playtime_hours": 443.4,
+        "timestamp_created": 1779922679
+      },
+      {
+        "voted_up": true,
+        "review": "[h1]萌新会被打的一直在天上飞 [/h1] 由于我个人是单排纯玩摸金和影棚，所以只说一下这两个部分。先说结论，推荐只点给来表界摸金的鼠鼠，其余模式[b] 我都不推荐。[/b] “无间镖客”，也就是这游戏的搜打撤模块，里面的满江红图表界还是很适合爱PVE摸金的鼠鼠们的，不用和其他玩家打架，主要是抢资源，虽然偶尔吃尾气，但好歹也有点东西，尤其是险境和劫境的表界爽吃不赖。 但豪客设定让人恶心，萌新如果裤兜不大，意外摸出大红或者多个小红，为了撤离只能去里界打架撤离，而打架这块对于只喜欢捡垃圾的鼠鼠确实烂的没话说了，单三要",
+        "votes_up": 15,
+        "playtime_hours": 75.9,
+        "timestamp_created": 1779518089
+      },
+      {
+        "voted_up": true,
+        "review": "宝宝等一下，刚才跟你打劫的人是谁？我不是早就警告过你不要乱跟别人打劫了吗？为什么你还是不听我的？为什么你每天都在跟别人一起劫也不来找我？你知道我每天盯着聊天框等着你有多难受吗？为什么不来找我？是因为你玩的是单排吗？你嫌我 打不死人了？还是觉得我博弈太菜？总是说话觉得我很烦？我明明已经很努力了，我一直在等着你给我发消息带我，为什么你却天天把我晾在一边？你为什么要疏远我？是不是你有新的劫友了？为什么你的眼里只有别人没有我？别人到底哪里比我好了？我要捅死你！！！捅死你！捅死你！捅死你！捅死你！捅死你！捅死你！捅死你！捅死",
+        "votes_up": 27,
+        "playtime_hours": 1.0,
+        "timestamp_created": 1780467868
+      }
+    ],
+    "peak_24h": 67557,
+    "last_enriched_at": "2026-06-21T12:52:03Z"
   },
   "1517290": {
     "appid": "1517290",
@@ -533,15 +1414,51 @@
       "多人",
       "玩家对战",
       "线上玩家对战",
-      "合作"
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "应用内购买"
     ],
-    "review_summary": "特别好评",
+    "review_summary": "褒贬不一",
     "developer": "DICE",
     "release_date": "2021 年 11 月 19 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 107006,
+    "current_ccu": 2561,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "欢迎来到 2042 《战地风云™ 2042》是一款第一人称射击游戏，本作将带领玩家重返该系列标志性的全面战争。运用尖端武器，参与紧张激烈、身临其境的多人模式战斗。 带领团队在 2042 年的世界和《战地风云》系列经典地图上参与大规模全面战争和近距离战斗，一起取得胜利。在以兵种为基础的游戏模式中找到自己的游戏风格，并体验全面升级的征服和突破模式。探索 Battlefield Portal（战地风云门户），玩家可以在这个平台中探索、创建和分享《战地风云》过去和现在的战斗体验。 ALL-OUT WARFARE 本游戏内含自愿的虚拟货币内购，虚拟点数可用于获取游戏内虚拟物品。",
+    "publisher": "Electronic Arts",
+    "review_score_desc": "褒贬不一",
+    "total_reviews": 324757,
+    "total_positive": 152949,
+    "positive_ratio": 47.1,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "别花冤枉钱买这垃圾游戏，连人机模式黑屏玩不了；卡视角bug开服直到现在还没有修复",
+        "votes_up": 31,
+        "playtime_hours": 42.8,
+        "timestamp_created": 1779604899
+      },
+      {
+        "voted_up": false,
+        "review": "The game will launch, but it takes 3-10 tries to join a game. Steam just frustratingly directs me to EA's support website. EA makes it nearly impossible to submit a case. But they don't have any trouble showing me ads for their new $100 game. ♥♥♥♥ these guys.",
+        "votes_up": 20,
+        "playtime_hours": 1658.8,
+        "timestamp_created": 1780417403
+      },
+      {
+        "voted_up": true,
+        "review": "ADMINS LISTEN HERE!!! Bring back the best BF existed and thats \"Battlefield Play4Free\" Update it on a newer engine, and you will have the best shooter out there believe me ;) GOOD LUCK <3",
+        "votes_up": 13,
+        "playtime_hours": 4.9,
+        "timestamp_created": 1780181296
+      }
+    ],
+    "peak_24h": 2561,
+    "last_enriched_at": "2026-06-21T12:52:05Z"
   },
   "1817070": {
     "appid": "1817070",
@@ -554,15 +1471,51 @@
       "单人",
       "Steam 成就",
       "可调整文字大小",
-      "视角舒适度"
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "随时保存"
     ],
-    "review_summary": "多半好评",
-    "developer": "Insomniac Games",
+    "review_summary": "好评如潮",
+    "developer": "Insomniac Games, Nixxes Software",
     "release_date": "2022 年 8 月 12 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 66093,
+    "current_ccu": 2071,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "由Insomniac Games与漫威合作开发，并由Nixxes Software进行优化的PC版《Marvel's Spider-Man Remastered》，将由玩家扮演身经百战的彼得·帕克，在漫威宇宙纽约中打击猖獗犯罪，对抗经典反派。与此同时，他本人纷乱的生活和事业让他左右为难，成千上万漫威纽约市民的命运也压在他的肩上。 游戏特色 Be Greater 当漫威的经典反派威胁到漫威宇宙纽约时，彼得·帕克和蜘蛛侠的世界产生了冲突。为了拯救这座城市和他所爱的人，他必须挺身而出，变得更强大。 成为蜘蛛侠 在戴上面具征战八年后，彼得·帕克成长为一位打击犯罪的大师。化身为身经百战的蜘蛛侠，体验他率性而为的战斗和活力十足的运动，在城市中飞梭穿行，与环境要素巧妙互动。 世界冲突 彼得·帕克和蜘蛛侠的世界在动作火爆的原创剧情中碰撞交织。在这个全新的蜘蛛侠宇宙中，本作对彼得和蜘蛛侠生活中的经典人物进行了重构，将熟悉的人物置于独特的全新角色身份之中。 漫威宇宙纽约，你的游乐场 在《Marvel's Spider-Man》中，纽约变得栩栩如生。在热闹的街区中摆荡飞跃，欣赏令人叹为观止的漫威地标和曼哈顿地标。在场景中因地制宜，用史诗级的劲爆动作痛扁恶棍。 体验不夜城的完整内容 在《Marvel’s Spider-Man Remastered》的主线剧情结束后，继续在《Marvel’s Spider-Man: The City That Never Sleeps》中体验彼得·帕克的路程，内含三个故事章节，还有额外的任务和挑战等您探索。 PC特色 PC图形优化 随心选择适用于各类设备的多种图形质量选项以及帧率解锁功能，同时支持包括NVIDIA DLSS性能提升和NVIDIA DLAA图像质量增强等技术。也支持AMD FSR 2.0空间升级技术。 光线追踪反射和阴影效果提升* 表现出色的阴影效果提升和光线追踪反射选项，附带多种质量模式可供选择，让这座城市的每个角落都尽显真实细节。 超宽屏幕支持** 支持多种屏幕分辨率配置，向您呈上漫威宇宙中纽约市的电影级视觉盛宴，支持的分辨率包含16:9、16:10、21:9、32:9，以及使用NVIDIA Surround或AMD Eyefinity三屏幕设置的48:9分辨率。 控制与自定义 使用有线USB连接PlayStation DualSense™控制器，通过身临其境的触觉反馈和动态扳机效果体验蜘蛛侠飞檐走壁的畅快感受。自定义控制选项将为您提供完整的键鼠支持。 *需要兼容的PC和显示设备。 **需要兼容的PC。",
+    "publisher": "PlayStation Publishing LLC",
+    "review_score_desc": "好评如潮",
+    "total_reviews": 133230,
+    "total_positive": 127877,
+    "positive_ratio": 96.0,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "Marvel's Spider-Man Remastered was an amazing experience from start to finish. The web-swinging around New York City never got old, the combat felt smooth and satisfying, and the story was genuinely engaging with some memorable emotional moments. The graphics ",
+        "votes_up": 11,
+        "playtime_hours": 51.5,
+        "timestamp_created": 1780599029
+      },
+      {
+        "voted_up": true,
+        "review": "1 Platinum, 16 mods, and 52 hours later, I don't think it's the best Marvel game, I KNOW it's the best Marvel game of all time, no game can beat this, it's just so immersive with mods, realistic, long stories and DLC's, unbeatable.",
+        "votes_up": 4,
+        "playtime_hours": 52.4,
+        "timestamp_created": 1780092589
+      },
+      {
+        "voted_up": true,
+        "review": "不错的超英游戏，只推荐打主线，当蜘蛛侠荡蛛丝很爽，把彼得蜘蛛侠的精神塑造的比较不错，真的是能力越大责任越大。但是同时是个超级通马桶游戏，特别是在做全收集的时候，很少遇到这样无聊这样重复的收集了，随机事件全是重复性无聊的通马桶任务，并且单主线不算全收集强制需要通9*20=180，并且还要加上其他数量不少的马桶类收集，还有臭名昭著的怪咖女挑战。 支线也是无聊通马桶，配角塑造的比较差，而且反派的转变非常突兀，眼高手低银貂，刁蛮mj。一个挺难崩的点是配角如由里玛丽简这种没科技没变异的凡人，经常觉得自己很牛逼，天老大地老二，",
+        "votes_up": 4,
+        "playtime_hours": 59.1,
+        "timestamp_created": 1780406075
+      }
+    ],
+    "peak_24h": 2400,
+    "last_enriched_at": "2026-06-21T12:52:07Z"
   },
   "1938090": {
     "appid": "1938090",
@@ -573,15 +1526,53 @@
       "单人",
       "多人",
       "玩家对战",
-      "线上玩家对战"
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "支持字幕",
+      "应用内购买",
+      "可调整文字大小"
     ],
-    "review_summary": "特别好评",
-    "developer": "Treyarch",
+    "review_summary": "褒贬不一",
+    "developer": "Treyarch, Raven Software, Beenox, High Moon Studios, Sledgehammer Games, Infinity Ward, Activision Shanghai, Demonware",
     "release_date": "2022 年 10 月 27 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 488897,
+    "current_ccu": 28724,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "使命召唤®体验支持《现代战争® 4》、《黑色行动 7》、《黑色行动 6》和《使命召唤®：战争地带™》。 《使命召唤®：现代战争® 4》，带玩家体验无界战火。 在《使命召唤®：黑色行动 7》中，Treyarch和Raven Software将为玩家带来最大规模的《黑色行动》。 《使命召唤®：黑色行动 6》是标志性的《黑色行动》系列，史诗电影般的单人战役、一流的多人游戏体验以及波次制丧尸模式的强势回归。 《使命召唤®：战争地带™》是一款大型免费战斗竞技场，其中包括生存游戏、重生，并全新推出黑色行动生存游戏。这一全新的免费模式灵感源自黑色冲突，并以当今《战争地带™》的标准重新打造。 使命召唤®点数是游戏货币，可在《黑色行动 7》，《《黑色行动 6》，《现代战争® III 2023》，《现代战争® II 2022》 及《使命召唤®：战争地带™》中使用，以换取全新游戏物品。 需要拥有另行出售/下载的《使命召唤®：黑色行动 7》，《《使命召唤®：黑色行动 6》，《使命召唤®：现代战争® III 2023》，《使命召唤®：现代战争® II 2022》 或《使命召唤®：战争地带™》，才能领取。 点数亦可用于在其它具有使命召唤®点数功能的《使命召唤®》游戏中换取物品*。所有游戏均另行发售。",
+    "publisher": "Activision",
+    "review_score_desc": "褒贬不一",
+    "total_reviews": 774338,
+    "total_positive": 453001,
+    "positive_ratio": 58.5,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "I bought a video game, not a motherboard project. Requiring players to update or flash their BIOS just to access a game they already paid for is completely unacceptable. A BIOS update isn't the same as updating a graphics driver—if something goes wrong, you ca",
+        "votes_up": 397,
+        "playtime_hours": 394.0,
+        "timestamp_created": 1780717184
+      },
+      {
+        "voted_up": false,
+        "review": "What a horrible change. Making it a requirement to give you my phone number to play the CAMPAIGN. I understand the measures for cheaters in ranked or competitive games but to access the campaign I have to give you my number? ♥♥♥♥ YOU.",
+        "votes_up": 172,
+        "playtime_hours": 115.1,
+        "timestamp_created": 1780096964
+      },
+      {
+        "voted_up": false,
+        "review": "CoD should have died like 15 years ago, yet here we are with an announcement for MW4. These games are just fronts to sell you digital skins that will be worth nothing in 4 years, don't waste your time or money with this franchise.",
+        "votes_up": 343,
+        "playtime_hours": 124.0,
+        "timestamp_created": 1780006233
+      }
+    ],
+    "peak_24h": 40082,
+    "last_enriched_at": "2026-06-21T12:52:09Z"
   },
   "1966720": {
     "appid": "1966720",
@@ -595,15 +1586,50 @@
       "单人",
       "多人",
       "合作",
-      "在线合作"
+      "在线合作",
+      "自定义音量控制",
+      "立体声",
+      "部分支持控制器",
+      "家庭共享"
     ],
-    "review_summary": "特别好评",
+    "review_summary": "好评如潮",
     "developer": "Zeekerss",
     "release_date": "2023 年 10 月 23 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 239369,
+    "current_ccu": 3223,
     "genre": "动作",
-    "is_free": false
+    "is_free": false,
+    "detailed_desc": "You are a contracted worker for the Company. Your job is to collect scrap from abandoned, industrialized moons to meet the Company's profit quota. You can use the cash you earn to travel to new moons with higher risks and rewards--or you can buy fancy suits and decorations for your ship. Experience nature, scanning any creature you find to add them to your bestiary. Explore the wondrous outdoors and rummage through their derelict, steel and concrete underbellies. Just never miss the quota. These dangers prey upon the vulnerable and lonesome, and the protection of your crew may be your only hope. You can guide your crewmates from your ship, using the radar to call out traps and using the ship's terminal to access remotely locked doors--or you can all go in together. The Company store has many useful tools for the job, including lights, shovels, walkie talkies, stun grenades, or boomboxes. Things get dangerous at night. Communicate with your crewmates to carry all valuables to the ship before things get too dangerous, and try not to leave anyone behind.",
+    "publisher": "Zeekerss",
+    "review_score_desc": "好评如潮",
+    "total_reviews": 509038,
+    "total_positive": 493749,
+    "positive_ratio": 97.0,
+    "hot_reviews": [
+      {
+        "voted_up": true,
+        "review": "联机游戏不能没有中文，就像西方不能失去耶路撒冷",
+        "votes_up": 80,
+        "playtime_hours": 95.1,
+        "timestamp_created": 1779519217
+      },
+      {
+        "voted_up": true,
+        "review": "Why does everyone trend hop this game, call it friendslop, then never play again. This game is way more fun than slop if you can become somewhat good at the game and get a consistent group to play with. Hating on this game is either not realizing how truly fun",
+        "votes_up": 48,
+        "playtime_hours": 288.6,
+        "timestamp_created": 1779418948
+      },
+      {
+        "voted_up": true,
+        "review": "the fittness gram pacer test is multistage aerobic capacity test that get progressivly more difficult over time",
+        "votes_up": 41,
+        "playtime_hours": 3.1,
+        "timestamp_created": 1779513923
+      }
+    ],
+    "peak_24h": 5452,
+    "last_enriched_at": "2026-06-21T12:52:11Z"
   },
   "2357570": {
     "appid": "2357570",
@@ -615,14 +1641,51 @@
       "多人",
       "玩家对战",
       "线上玩家对战",
-      "合作"
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "应用内购买",
+      "可调整文字大小"
     ],
-    "review_summary": "多半好评",
+    "review_summary": "多半差评",
     "developer": "Blizzard Entertainment, Inc.",
     "release_date": "2023 年 8 月 10 日",
-    "peak_ccu_alltime": null,
-    "current_ccu": null,
+    "peak_ccu_alltime": 164636,
+    "current_ccu": 65051,
     "genre": "动作",
-    "is_free": true
+    "is_free": true,
+    "detailed_desc": "《守望先锋》是一款长期运营并不断演化的免费团队英雄射击游戏，战场设定在光明的未来，拥有全新英雄和地图、新颖的游戏方式以及独特的个性化物品，每场对战都是一次5v5或6v6的终极乱斗！无论你是喜欢领军冲锋、伏击敌人还是援助盟友，由超过40位英雄组成的《守望先锋》强大阵容中总有适合你的英雄。与好友组队，一同冲入超过25张源自现实世界的未来风格地图，纵横多种独特的游戏模式。 黑爪之治——第3赛季：龙潭虎穴 亮出利爪，直奔战场 随守望先锋一起在全新攻击/护送地图的破碎街道中穿梭作战，参与剧情活动，散发着危险气息的英雄现身，更有全新神话物品和究极皮肤等你来！ 黑爪之治——第3赛季：龙潭虎穴拉开帷幕，守望先锋来到一片光与暗交织的地界，在这里，与谁同盟决定一切。以速度和残暴闻名的全新输出英雄死怨加入战局，她领导着恶名昭彰的桥元家族，挑战你战斗的决心。此外，你还可以在版本活动“幻灵强袭”中探索全新攻击/护送地图，发掘暗藏其中的秘密，体验赛季剧情并赢取奖励。最后，换上伊拉锐神话皮肤“天翔不死鸟”驰骋战场，或是举起半藏神话武器“东京叛魂”一击毙命，更有全新个性化物品等级“究极皮肤”，让你的光芒更加闪耀！",
+    "publisher": "Blizzard Entertainment, Inc.",
+    "review_score_desc": "多半差评",
+    "total_reviews": 407595,
+    "total_positive": 124578,
+    "positive_ratio": 30.6,
+    "hot_reviews": [
+      {
+        "voted_up": false,
+        "review": "如果陨石在2016年砸毁了暴雪，它是一家传奇的游戏公司。 如果陨石在2018年砸毁了暴雪，它是一家值得怀念的游戏公司。 如果陨石在2020年砸毁了暴雪，它是一家令人惋惜的游戏公司。 如果陨石在今年砸毁了暴雪，它是一颗传奇的陨石。",
+        "votes_up": 271,
+        "playtime_hours": 46.4,
+        "timestamp_created": 1780858146
+      },
+      {
+        "voted_up": false,
+        "review": "Overwatch is a fair-looking beast with the soul of a jester’s shoe. Step inside and thou art greeted not by warriors, but by a chorus of squabbling knaves whose game sense is as thin as parchment left in the rain. The fanbase preens like peacocks yet plays lik",
+        "votes_up": 961,
+        "playtime_hours": 23.4,
+        "timestamp_created": 1780335300
+      },
+      {
+        "voted_up": true,
+        "review": "Not like the porn, and its a bit laggy and buggy, but its still an okay game.",
+        "votes_up": 679,
+        "playtime_hours": 228.0,
+        "timestamp_created": 1780191901
+      }
+    ],
+    "peak_24h": 87050,
+    "last_enriched_at": "2026-06-21T12:52:14Z"
   }
 }

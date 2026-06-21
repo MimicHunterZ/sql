@@ -71,9 +71,17 @@ def health() -> dict:
 def api_games() -> List[GameSummary]:
     latest_map = get_latest_ccu_map()
     games = list_games()
+    price_docs = {
+        str(p["appid"]): p
+        for p in db["price_history"].find(
+            {},
+            {"_id": 0, "appid": 1, "is_free": 1, "current_cny": 1, "current_discount": 1},
+        )
+    }
     result: list[GameSummary] = []
     for g in games:
         appid = int(g["appid"])
+        price = price_docs.get(str(appid), {})
         result.append(
             GameSummary(
                 appid=appid,
@@ -82,6 +90,9 @@ def api_games() -> List[GameSummary]:
                 tags=g.get("tags") or [],
                 positive_ratio=g.get("positive_ratio"),
                 price_usd=g.get("price_usd"),
+                is_free=price.get("is_free"),
+                current_cny=price.get("current_cny"),
+                current_discount=price.get("current_discount"),
             )
         )
     result.sort(key=lambda x: x.current_ccu or 0, reverse=True)

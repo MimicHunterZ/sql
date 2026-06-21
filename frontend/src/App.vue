@@ -12,17 +12,17 @@ import Sidebar from './components/Sidebar.vue'
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap');
 
 :root {
-  --bg:        #0a0a1a;
-  --panel:     rgba(17, 24, 39, 0.85);
-  --border:    rgba(96, 165, 250, 0.25);
-  --blue:      #60a5fa;
-  --purple:    #a78bfa;
-  --cyan:      #06b6d4;
-  --pink:      #f472b6;
-  --blue-dim:  rgba(96, 165, 250, 0.15);
+  --bg:        #090e16;
+  --panel:     rgba(20, 43, 66, 0.82);
+  --border:    rgba(103, 193, 245, 0.24);
+  --blue:      #67c1f5;
+  --purple:    #8fbfe8;
+  --cyan:      #9de7ff;
+  --pink:      #f5c451;
+  --blue-dim:  rgba(103, 193, 245, 0.15);
   --sidebar-w: 64px;
 }
 
@@ -32,7 +32,7 @@ html, body {
   height: 100%;
   background: var(--bg);
   color: #e0e0e0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 
 /* ── scrollbar ── */
@@ -48,7 +48,9 @@ html, body {
 .app-shell {
   display: flex;
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a0a1a 0%, #050510 100%);
+  background:
+    radial-gradient(circle at 18% -10%, rgba(103,193,245,.16), transparent 32%),
+    linear-gradient(135deg, #090e16 0%, #101f2e 48%, #070b11 100%);
 }
 
 .main-content {
@@ -62,7 +64,7 @@ html, body {
 .glass-card {
   background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 20px;
+  border-radius: 8px;
   backdrop-filter: blur(12px);
   transition: border-color .3s, box-shadow .3s, transform .3s;
 }
@@ -118,7 +120,7 @@ html, body {
   margin-bottom: 10px;
 }
 .card-value {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   background: linear-gradient(135deg, var(--blue), var(--purple));
@@ -211,7 +213,7 @@ html, body {
 
 /* ── page heading ── */
 .page-title {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   background: linear-gradient(135deg, var(--blue), var(--purple));
